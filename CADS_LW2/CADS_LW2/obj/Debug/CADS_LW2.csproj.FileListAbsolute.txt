@@ -1,0 +1,7 @@
+C:\Users\stepu\source\repos\CADS_LW2\CADS_LW2\obj\Debug\CADS_LW2.csproj.AssemblyReference.cache
+C:\Users\stepu\source\repos\CADS_LW2\CADS_LW2\obj\Debug\CADS_LW2.csproj.CoreCompileInputs.cache
+C:\Users\stepu\source\repos\CADS_LW2\CADS_LW2\bin\Debug\CADS_LW2.exe.config
+C:\Users\stepu\source\repos\CADS_LW2\CADS_LW2\bin\Debug\CADS_LW2.exe
+C:\Users\stepu\source\repos\CADS_LW2\CADS_LW2\bin\Debug\CADS_LW2.pdb
+C:\Users\stepu\source\repos\CADS_LW2\CADS_LW2\obj\Debug\CADS_LW2.exe
+C:\Users\stepu\source\repos\CADS_LW2\CADS_LW2\obj\Debug\CADS_LW2.pdb

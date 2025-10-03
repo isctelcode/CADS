@@ -1,0 +1,8 @@
+C:\Users\stepu\source\repos\Struct1\Struct1\bin\Debug\Struct1.exe.config
+C:\Users\stepu\source\repos\Struct1\Struct1\bin\Debug\Struct1.exe
+C:\Users\stepu\source\repos\Struct1\Struct1\bin\Debug\Struct1.pdb
+C:\Users\stepu\source\repos\Struct1\Struct1\obj\Debug\Struct1.csproj.AssemblyReference.cache
+C:\Users\stepu\source\repos\Struct1\Struct1\obj\Debug\Struct1.csproj.CoreCompileInputs.cache
+C:\Users\stepu\source\repos\Struct1\Struct1\obj\Debug\Struct1.exe
+C:\Users\stepu\source\repos\Struct1\Struct1\obj\Debug\Struct1.pdb
+C:\Users\stepu\source\repos\Struct1\Struct1\obj\Debug\Struct1.exe.config
