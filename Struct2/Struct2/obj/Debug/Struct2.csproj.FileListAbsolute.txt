@@ -1,0 +1,8 @@
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct2\Struct2\bin\Debug\Struct2.exe.config
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct2\Struct2\bin\Debug\Struct2.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct2\Struct2\bin\Debug\Struct2.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct2\Struct2\obj\Debug\Struct2.csproj.AssemblyReference.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct2\Struct2\obj\Debug\Struct2.csproj.CoreCompileInputs.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct2\Struct2\obj\Debug\Struct2.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct2\Struct2\obj\Debug\Struct2.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct2\Struct2\obj\Debug\Struct2.exe.config
