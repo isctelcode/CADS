@@ -111,7 +111,7 @@ namespace Struct2
             }
         }
 
-        internal class Complex
+        internal struct Complex
         {
             private double real;
             private double imaginary;
@@ -134,12 +134,6 @@ namespace Struct2
             public void setImaginary(double imaginary)
             {
                 this.imaginary = imaginary;
-            }
-
-            public Complex()
-            {
-                real = 0;
-                imaginary = 0;
             }
 
             public Complex(double real, double imaginary)
