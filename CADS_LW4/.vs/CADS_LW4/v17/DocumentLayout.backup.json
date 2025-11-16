@@ -1,0 +1,127 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\CADS_LW4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{676BB5C1-FDB1-4900-828F-305BB14ED798}|CADS_LW4\\CADS_LW4.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\cads_lw4\\cads_lw4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{676BB5C1-FDB1-4900-828F-305BB14ED798}|CADS_LW4\\CADS_LW4.csproj|solutionrelative:cads_lw4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{676BB5C1-FDB1-4900-828F-305BB14ED798}|CADS_LW4\\CADS_LW4.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\cads_lw4\\cads_lw4\\university.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{676BB5C1-FDB1-4900-828F-305BB14ED798}|CADS_LW4\\CADS_LW4.csproj|solutionrelative:cads_lw4\\university.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{676BB5C1-FDB1-4900-828F-305BB14ED798}|CADS_LW4\\CADS_LW4.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\cads_lw4\\cads_lw4\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{676BB5C1-FDB1-4900-828F-305BB14ED798}|CADS_LW4\\CADS_LW4.csproj|solutionrelative:cads_lw4\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{676BB5C1-FDB1-4900-828F-305BB14ED798}|CADS_LW4\\CADS_LW4.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\cads_lw4\\cads_lw4\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{676BB5C1-FDB1-4900-828F-305BB14ED798}|CADS_LW4\\CADS_LW4.csproj|solutionrelative:cads_lw4\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{676BB5C1-FDB1-4900-828F-305BB14ED798}|CADS_LW4\\CADS_LW4.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\cads_lw4\\cads_lw4\\istudentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{676BB5C1-FDB1-4900-828F-305BB14ED798}|CADS_LW4\\CADS_LW4.csproj|solutionrelative:cads_lw4\\istudentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{676BB5C1-FDB1-4900-828F-305BB14ED798}|CADS_LW4\\CADS_LW4.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\cads_lw4\\cads_lw4\\imarkdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{676BB5C1-FDB1-4900-828F-305BB14ED798}|CADS_LW4\\CADS_LW4.csproj|solutionrelative:cads_lw4\\imarkdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\CADS_LW4\\CADS_LW4\\Program.cs",
+              "RelativeDocumentMoniker": "CADS_LW4\\Program.cs",
+              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\CADS_LW4\\CADS_LW4\\Program.cs",
+              "RelativeToolTip": "CADS_LW4\\Program.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAQwIIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T13:53:25.152Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "University.cs",
+              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\CADS_LW4\\CADS_LW4\\University.cs",
+              "RelativeDocumentMoniker": "CADS_LW4\\University.cs",
+              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\CADS_LW4\\CADS_LW4\\University.cs",
+              "RelativeToolTip": "CADS_LW4\\University.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T13:54:46.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class.cs",
+              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\CADS_LW4\\CADS_LW4\\Class.cs",
+              "RelativeDocumentMoniker": "CADS_LW4\\Class.cs",
+              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\CADS_LW4\\CADS_LW4\\Class.cs",
+              "RelativeToolTip": "CADS_LW4\\Class.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T13:54:44.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\CADS_LW4\\CADS_LW4\\Student.cs",
+              "RelativeDocumentMoniker": "CADS_LW4\\Student.cs",
+              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\CADS_LW4\\CADS_LW4\\Student.cs",
+              "RelativeToolTip": "CADS_LW4\\Student.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAADwvzgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T13:54:45.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IStudentData.cs",
+              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\CADS_LW4\\CADS_LW4\\IStudentData.cs",
+              "RelativeDocumentMoniker": "CADS_LW4\\IStudentData.cs",
+              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\CADS_LW4\\CADS_LW4\\IStudentData.cs",
+              "RelativeToolTip": "CADS_LW4\\IStudentData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T13:56:09.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IMarkData.cs",
+              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\CADS_LW4\\CADS_LW4\\IMarkData.cs",
+              "RelativeDocumentMoniker": "CADS_LW4\\IMarkData.cs",
+              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\CADS_LW4\\CADS_LW4\\IMarkData.cs",
+              "RelativeToolTip": "CADS_LW4\\IMarkData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T13:56:32.908Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
