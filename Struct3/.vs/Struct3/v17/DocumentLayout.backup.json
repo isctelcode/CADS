@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26BBFA26-3B89-41E4-80AC-C65417F0BC79}|Struct3\\Struct3.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct3\\struct3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26BBFA26-3B89-41E4-80AC-C65417F0BC79}|Struct3\\Struct3.csproj|solutionrelative:struct3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26BBFA26-3B89-41E4-80AC-C65417F0BC79}|Struct3\\Struct3.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct3\\struct3\\sortalgorithms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26BBFA26-3B89-41E4-80AC-C65417F0BC79}|Struct3\\Struct3.csproj|solutionrelative:struct3\\sortalgorithms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26BBFA26-3B89-41E4-80AC-C65417F0BC79}|Struct3\\Struct3.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct3\\struct3\\arraygenerate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26BBFA26-3B89-41E4-80AC-C65417F0BC79}|Struct3\\Struct3.csproj|solutionrelative:struct3\\arraygenerate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26BBFA26-3B89-41E4-80AC-C65417F0BC79}|Struct3\\Struct3.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct3\\struct3\\sortalgorithms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26BBFA26-3B89-41E4-80AC-C65417F0BC79}|Struct3\\Struct3.csproj|solutionrelative:struct3\\sortalgorithms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26BBFA26-3B89-41E4-80AC-C65417F0BC79}|Struct3\\Struct3.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct3\\struct3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26BBFA26-3B89-41E4-80AC-C65417F0BC79}|Struct3\\Struct3.csproj|solutionrelative:struct3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26BBFA26-3B89-41E4-80AC-C65417F0BC79}|Struct3\\Struct3.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct3\\struct3\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26BBFA26-3B89-41E4-80AC-C65417F0BC79}|Struct3\\Struct3.csproj|solutionrelative:struct3\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26BBFA26-3B89-41E4-80AC-C65417F0BC79}|Struct3\\Struct3.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct3\\struct3\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26BBFA26-3B89-41E4-80AC-C65417F0BC79}|Struct3\\Struct3.csproj|solutionrelative:struct3\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26BBFA26-3B89-41E4-80AC-C65417F0BC79}|Struct3\\Struct3.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct3\\struct3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,13 +42,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct3\\Struct3\\Form1.cs",
               "RelativeDocumentMoniker": "Struct3\\Form1.cs",
               "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct3\\Struct3\\Form1.cs",
               "RelativeToolTip": "Struct3\\Form1.cs",
-              "ViewState": "AgIAAG8BAAAAAAAAAAAwwHkBAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAAAHoBAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-21T10:22:41.108Z",
               "EditorCaption": ""
@@ -57,9 +61,22 @@
               "RelativeDocumentMoniker": "Struct3\\Form1.Designer.cs",
               "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct3\\Struct3\\Form1.Designer.cs",
               "RelativeToolTip": "Struct3\\Form1.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKAAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-22T18:27:34.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SortAlgorithms.cs",
+              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct3\\Struct3\\SortAlgorithms.cs",
+              "RelativeDocumentMoniker": "Struct3\\SortAlgorithms.cs",
+              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct3\\Struct3\\SortAlgorithms.cs",
+              "RelativeToolTip": "Struct3\\SortAlgorithms.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T17:51:54.193Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -71,11 +88,12 @@
               "RelativeToolTip": "Struct3\\ArrayGenerate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T17:51:24.867Z"
+              "WhenOpened": "2025-10-22T17:51:24.867Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct3\\Struct3\\Form1.cs",
               "RelativeDocumentMoniker": "Struct3\\Form1.cs",
@@ -86,15 +104,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SortAlgorithms.cs",
-              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct3\\Struct3\\SortAlgorithms.cs",
-              "RelativeDocumentMoniker": "Struct3\\SortAlgorithms.cs",
-              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct3\\Struct3\\SortAlgorithms.cs",
-              "RelativeToolTip": "Struct3\\SortAlgorithms.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAD4v/wAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Data.cs",
+              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct3\\Struct3\\Data.cs",
+              "RelativeDocumentMoniker": "Struct3\\Data.cs",
+              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct3\\Struct3\\Data.cs",
+              "RelativeToolTip": "Struct3\\Data.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T17:51:54.193Z"
+              "WhenOpened": "2025-11-03T14:37:03.475Z"
             }
           ]
         }
