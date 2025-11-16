@@ -1,0 +1,8 @@
+C:\Users\stepu\Desktop\Лабы КАиСД\CADS_LW5\CADS_LW5\bin\Debug\CADS_LW3.exe.config
+C:\Users\stepu\Desktop\Лабы КАиСД\CADS_LW5\CADS_LW5\bin\Debug\CADS_LW3.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\CADS_LW5\CADS_LW5\bin\Debug\CADS_LW3.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\CADS_LW5\CADS_LW5\obj\Debug\CADS_LW5.csproj.AssemblyReference.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\CADS_LW5\CADS_LW5\obj\Debug\CADS_LW3.exe.config
+C:\Users\stepu\Desktop\Лабы КАиСД\CADS_LW5\CADS_LW5\obj\Debug\CADS_LW5.csproj.CoreCompileInputs.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\CADS_LW5\CADS_LW5\obj\Debug\CADS_LW3.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\CADS_LW5\CADS_LW5\obj\Debug\CADS_LW3.pdb
