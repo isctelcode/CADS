@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace CADS_LW4
 {
-    internal interface IStudentData
+    interface IStudentData
     {
         string Name { get; set; }
         string Surname { get; set; }

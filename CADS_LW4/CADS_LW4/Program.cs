@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CADS_LW4
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
@@ -117,7 +117,7 @@ namespace CADS_LW4
                         for (int i = 0; i < students.Count; ++i)
                         {
                             Console.Write($"{i + 1}. ");
-                            students[i].GetInfo();
+                            Console.WriteLine(students[i]);
                             students[i].GetMarks();
                         }
                         break;

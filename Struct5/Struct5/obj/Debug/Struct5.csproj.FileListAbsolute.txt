@@ -1,0 +1,8 @@
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct5\Struct5\bin\Debug\Struct5.exe.config
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct5\Struct5\bin\Debug\Struct5.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct5\Struct5\bin\Debug\Struct5.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct5\Struct5\obj\Debug\Struct5.csproj.AssemblyReference.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct5\Struct5\obj\Debug\Struct5.csproj.CoreCompileInputs.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct5\Struct5\obj\Debug\Struct5.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct5\Struct5\obj\Debug\Struct5.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct5\Struct5\obj\Debug\Struct5.exe.config

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CADS_LW4
 {
-    internal class Student : IStudentData, IMarkData
+    class Student : IStudentData, IMarkData
     {
         private string name, surname;
         private int age;
@@ -48,6 +48,11 @@ namespace CADS_LW4
         public void GetInfo()
         {
             Console.WriteLine($"{Name} {Surname} {Age} {University.Name} {Faculty} {Group}");
+        }
+
+        public override string ToString()
+        {
+            return $"{Name} {Surname} {Age} {University.Name} {Faculty} {Group}";
         }
 
         public void GetMarks()

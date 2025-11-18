@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CADS_LW4
 {
-    internal class Class
+    class Class
     {
         private string name;
         private int mark;

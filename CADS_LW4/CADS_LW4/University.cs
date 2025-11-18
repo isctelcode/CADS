@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CADS_LW4
 {
-    internal class University
+    class University
     {
         private string name;
         private string[] course;

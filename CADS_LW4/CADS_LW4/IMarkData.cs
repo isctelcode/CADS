@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CADS_LW4
 {
-    internal interface IMarkData
+    interface IMarkData
     {
         Class[] Classes { get; set; }
 
