@@ -1,0 +1,8 @@
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct6\Struct6\bin\Debug\Struct6.exe.config
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct6\Struct6\bin\Debug\Struct6.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct6\Struct6\bin\Debug\Struct6.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct6\Struct6\obj\Debug\Struct6.csproj.AssemblyReference.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct6\Struct6\obj\Debug\Struct6.csproj.CoreCompileInputs.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct6\Struct6\obj\Debug\Struct6.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct6\Struct6\obj\Debug\Struct6.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct6\Struct6\obj\Debug\Struct6.exe.config

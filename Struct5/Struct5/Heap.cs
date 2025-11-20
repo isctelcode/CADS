@@ -9,21 +9,21 @@ using System.Threading.Tasks;
 
 namespace Struct5
 {
+    class HeapComparer<T> : IComparer<T>
+    {
+        public int Compare(T a, T b)
+        {
+            return Comparer<T>.Default.Compare(a, b);
+        }
+    }
     class Heap<T>
     {
-        class Comparer : IComparer<T>
-        {
-            public int Compare(T a, T b)
-            {
-                return Comparer<T>.Default.Compare(a, b);
-            }
-        }
-        Comparer comparer = new Comparer();
-
+        
         private T[] heap;
         private int size;
         private int capacity;
-        
+        HeapComparer<T> comparer;
+
         public int Size { get { return size; } }
         public int Capacity {  get { return capacity; } }
 
@@ -41,10 +41,31 @@ namespace Struct5
                 heap[i] = array[i];
             }
 
+            comparer = new HeapComparer<T>();
             int startIndex = size / 2 - 1;
             for (int i = startIndex; i >= 0; --i)
             {
-                SiftDownMax(startIndex);
+                int index = i;
+                while (index * 2 + 1 < size)
+                {
+                    int leftChildIndex = 2 * index + 1, rightChildIndex = 2 * index + 2;
+                    int maxChildIndex = leftChildIndex;
+
+                    if (rightChildIndex < size && comparer.Compare(heap[rightChildIndex], heap[leftChildIndex]) > 0)
+                    {
+                        maxChildIndex = rightChildIndex;
+                    }
+
+                    if (comparer.Compare(heap[maxChildIndex], heap[index]) > 0)
+                    {
+                        (heap[index], heap[maxChildIndex]) = (heap[maxChildIndex], heap[index]);
+                        index = maxChildIndex;
+                    }
+                    else
+                    {
+                        break;
+                    }
+                }   
             }
         }
 
@@ -52,7 +73,7 @@ namespace Struct5
         {
             while (index > 0)
             {
-                int parentIndex = index / 2;
+                int parentIndex = (index - 1) / 2;
                 if (comparer.Compare(heap[index], heap[parentIndex]) > 0)
                 {
                     (heap[parentIndex], heap[index]) = (heap[index], heap[parentIndex]);
@@ -130,9 +151,9 @@ namespace Struct5
         {
             if (size == capacity)
             {
-                capacity += capacity + 1;
                 try
                 {
+                    capacity += capacity + 1;
                     T[] newHeap = new T[capacity];
                     for (int i = 0; i < size; ++i)
                     {
@@ -142,7 +163,7 @@ namespace Struct5
                 }
                 catch (OutOfMemoryHeapException exception)
                 {
-                    Console.WriteLine(exception);
+                    Console.WriteLine(exception.Message);
                     return;
                 }
             }

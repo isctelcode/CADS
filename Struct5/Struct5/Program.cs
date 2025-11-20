@@ -18,8 +18,12 @@ namespace Struct5
             Console.WriteLine(intHeap.RemoveMax());
             Console.WriteLine(intHeap.ReturnMax());
 
-            int[] array2 = new int[] { 7, 0, 2, 4, 14, 27, 30 };
+            int[] array2 = new int[] { };
             Heap<int> anotherIntHeap = new Heap<int>(array2);
+            anotherIntHeap.InsertValue(12);
+            Console.WriteLine(anotherIntHeap.ReturnMax());
+            anotherIntHeap.InsertValue(35);
+            Console.WriteLine(anotherIntHeap.ReturnMax());
 
             intHeap.Merge(anotherIntHeap);
 
