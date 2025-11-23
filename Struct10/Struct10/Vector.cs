@@ -1,4 +1,4 @@
-﻿using Struct9;
+﻿using Struct10;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -11,9 +11,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace Struct9
+namespace Struct10
 {
-    class ArrayListComparer<T> : IComparer<T>
+    class VectorComparer<T> : IComparer<T>
     {
         public int Compare(T a, T b)
         {
@@ -21,24 +21,27 @@ namespace Struct9
         }
     }
 
-    class ArrayList<T>
+    class Vector<T>
     {
         private T[] elementData = new T[1];
         private int size = 0;
         private int capacity = 1;
-        private ArrayListComparer<T> comparer = new ArrayListComparer<T>();
+        private int capacityIncrement = 0;
+        private VectorComparer<T> comparer = new VectorComparer<T>();
 
-        public ArrayList()
+        public Vector()
         {
             size = 0;
             capacity = 1;
+            capacityIncrement = 0;
             elementData = new T[capacity];
         }
 
-        public ArrayList(T[] array)
+        public Vector(T[] array)
         {
             size = array.Length;
             capacity = size;
+            capacityIncrement = 0;
             elementData = new T[capacity];
             for (int i = 0; i < size; ++i)
             {
@@ -46,10 +49,19 @@ namespace Struct9
             }
         }
 
-        public ArrayList(int capacity)
+        public Vector(int initialCapacity)
         {
             size = 0;
-            this.capacity = capacity;
+            capacity = initialCapacity;
+            capacityIncrement = 0;
+            elementData = new T[capacity];
+        }
+
+        public Vector(int initialCapacity, int capacityIncrement)
+        {
+            size = 0;
+            capacity = initialCapacity;
+            this.capacityIncrement = capacityIncrement;
             elementData = new T[capacity];
         }
 
@@ -59,7 +71,14 @@ namespace Struct9
             {
                 try
                 {
-                    capacity = Convert.ToInt32(capacity * 1.5) + 1;
+                    if (capacityIncrement == 0)
+                    {
+                        capacity *= 2;
+                    }
+                    else
+                    {
+                        capacity += capacityIncrement;
+                    }
                     T[] newElementData = new T[capacity];
                     for (int i = 0; i < size; ++i)
                     {
@@ -67,7 +86,7 @@ namespace Struct9
                     }
                     elementData = newElementData;
                 }
-                catch (OutOfMemoryArrayListException exception)
+                catch (OutOfMemoryVectorException exception)
                 {
                     Console.WriteLine(exception);
                     return;
@@ -96,7 +115,7 @@ namespace Struct9
         {
             if (IsEmpty())
             {
-                throw new NullArrayListException();
+                throw new NullVectorException();
             }
             for (int i = 0; i < size; ++i)
             {
@@ -112,7 +131,7 @@ namespace Struct9
         {
             if (IsEmpty())
             {
-                throw new NullArrayListException();
+                throw new NullVectorException();
             }
             bool[] contains = new bool[elements.Length];
             for (int i = 0; i < contains.Length; ++i)
@@ -143,7 +162,7 @@ namespace Struct9
         {
             if (IsEmpty())
             {
-                throw new NullArrayListException();
+                throw new NullVectorException();
             }
             for (int i = 0; i < size; ++i)
             {
@@ -163,7 +182,7 @@ namespace Struct9
         {
             if (IsEmpty())
             {
-                throw new NullArrayListException();
+                throw new NullVectorException();
             }
             for (int i = 0; i < elements.Length; ++i)
             {
@@ -175,7 +194,7 @@ namespace Struct9
         {
             if (IsEmpty())
             {
-                throw new NullArrayListException();
+                throw new NullVectorException();
             }
             int wrongElementsCount = 0;
             for (int i = 0; i < size; ++i)
@@ -218,7 +237,7 @@ namespace Struct9
         {
             if (index < 0 || index > size)
             {
-                throw new IndexOutOfRangeArrayListException();
+                throw new IndexOutOfRangeVectorException();
             }
             if (size == capacity)
             {
@@ -232,7 +251,7 @@ namespace Struct9
                     }
                     elementData = newElementData;
                 }
-                catch (OutOfMemoryArrayListException exception)
+                catch (OutOfMemoryVectorException exception)
                 {
                     Console.WriteLine(exception);
                     return;
@@ -251,7 +270,7 @@ namespace Struct9
         {
             if (index < 0 || index > size)
             {
-                throw new IndexOutOfRangeArrayListException();
+                throw new IndexOutOfRangeVectorException();
             }
             for (int i = 0; i < array.Length; ++i)
             {
@@ -263,11 +282,11 @@ namespace Struct9
         {
             if (IsEmpty())
             {
-                throw new NullArrayListException();
+                throw new NullVectorException();
             }
             if (index < 0 || index >= size)
             {
-                throw new IndexOutOfRangeArrayListException();
+                throw new IndexOutOfRangeVectorException();
             }
             return elementData[index];
         }
@@ -276,7 +295,7 @@ namespace Struct9
         {
             if (IsEmpty())
             {
-                throw new NullArrayListException();
+                throw new NullVectorException();
             }
             for (int i = 0; i < size; ++i)
             {
@@ -292,7 +311,7 @@ namespace Struct9
         {
             if (IsEmpty())
             {
-                throw new NullArrayListException();
+                throw new NullVectorException();
             }
             for (int i = size - 1; i >= 0; --i)
             {
@@ -308,11 +327,11 @@ namespace Struct9
         {
             if (IsEmpty())
             {
-                throw new NullArrayListException();
+                throw new NullVectorException();
             }
             if (index < 0 || index >= size)
             {
-                throw new IndexOutOfRangeArrayListException();
+                throw new IndexOutOfRangeVectorException();
             }
             T removed = elementData[index];
             for (int i = index; i < size - 1; ++i)
@@ -327,11 +346,11 @@ namespace Struct9
         {
             if (IsEmpty())
             {
-                throw new NullArrayListException();
+                throw new NullVectorException();
             }
             if (index < 0 || index >= size)
             {
-                throw new IndexOutOfRangeArrayListException();
+                throw new IndexOutOfRangeVectorException();
             }
             elementData[index] = element;
         }
@@ -340,7 +359,7 @@ namespace Struct9
         {
             if (IsEmpty())
             {
-                throw new NullArrayListException();
+                throw new NullVectorException();
             }
             if (fromIndex > toIndex)
             {
@@ -348,11 +367,11 @@ namespace Struct9
             }
             if (fromIndex < 0 || fromIndex >= size)
             {
-                throw new IndexOutOfRangeArrayListException();
+                throw new IndexOutOfRangeVectorException();
             }
             if (toIndex < 0 || toIndex > size)
             {
-                throw new IndexOutOfRangeArrayListException();
+                throw new IndexOutOfRangeVectorException();
             }
             T[] subList = new T[toIndex - fromIndex];
             for (int i = fromIndex; i < toIndex; ++i)
@@ -360,6 +379,66 @@ namespace Struct9
                 subList[i] = elementData[i];
             }
             return subList;
+        }
+
+        public T FirstElement()
+        {
+            if (IsEmpty())
+            {
+                throw new NullVectorException();
+            }
+            return elementData[0];
+        }
+
+        public T LastElement()
+        {
+            if (IsEmpty())
+            {
+                throw new NullVectorException();
+            }
+            return elementData[size - 1];
+        }
+
+        public void RemoveElementAt(int index)
+        {
+            if (IsEmpty())
+            {
+                throw new NullVectorException();
+            }
+            if (index < 0 || index >= size)
+            {
+                throw new IndexOutOfRangeVectorException();
+            }
+            for (int i = index; i < size - 1; ++i)
+            {
+                elementData[i] = elementData[i + 1];
+            }
+            --size;
+        }
+
+        public void RemoveRange(int fromIndex, int toIndex)
+        {
+            if (IsEmpty())
+            {
+                throw new NullVectorException();
+            }
+            if (fromIndex > toIndex)
+            {
+                throw new InvalidIntervalArgumentException();
+            }
+            if (fromIndex < 0 || fromIndex >= size)
+            {
+                throw new IndexOutOfRangeVectorException();
+            }
+            if (toIndex < 0 || toIndex >= size)
+            {
+                throw new IndexOutOfRangeVectorException();
+            }
+            int deleted = toIndex - fromIndex + 1;
+            for (int i = 0; i < deleted; ++i)
+            {
+                RemoveElementAt(fromIndex);
+            }
         }
     }
 }

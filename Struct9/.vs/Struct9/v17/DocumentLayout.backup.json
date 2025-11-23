@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct9\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A0B2FD36-4783-4888-B30E-1A77F3E8D46D}|Struct9\\Struct9.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct9\\struct9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0B2FD36-4783-4888-B30E-1A77F3E8D46D}|Struct9\\Struct9.csproj|solutionrelative:struct9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A0B2FD36-4783-4888-B30E-1A77F3E8D46D}|Struct9\\Struct9.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct9\\struct9\\arraylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0B2FD36-4783-4888-B30E-1A77F3E8D46D}|Struct9\\Struct9.csproj|solutionrelative:struct9\\arraylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0B2FD36-4783-4888-B30E-1A77F3E8D46D}|Struct9\\Struct9.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct9\\struct9\\arraylistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A0B2FD36-4783-4888-B30E-1A77F3E8D46D}|Struct9\\Struct9.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct9\\struct9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0B2FD36-4783-4888-B30E-1A77F3E8D46D}|Struct9\\Struct9.csproj|solutionrelative:struct9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0B2FD36-4783-4888-B30E-1A77F3E8D46D}|Struct9\\Struct9.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct9\\struct9\\arraylistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0B2FD36-4783-4888-B30E-1A77F3E8D46D}|Struct9\\Struct9.csproj|solutionrelative:struct9\\arraylistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,21 +22,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct9\\Struct9\\Program.cs",
               "RelativeDocumentMoniker": "Struct9\\Program.cs",
               "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct9\\Struct9\\Program.cs",
               "RelativeToolTip": "Struct9\\Program.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAqwDQAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-23T18:24:54.181Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -44,13 +43,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ArrayList.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct9\\Struct9\\ArrayList.cs",
               "RelativeDocumentMoniker": "Struct9\\ArrayList.cs",
               "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct9\\Struct9\\ArrayList.cs",
               "RelativeToolTip": "Struct9\\ArrayList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAE0BAAAAAAAAAAAowGABAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-23T18:27:17.968Z",
               "EditorCaption": ""
@@ -65,8 +64,7 @@
               "RelativeToolTip": "Struct9\\ArrayListException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T18:27:17.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T18:27:17.146Z"
             }
           ]
         }

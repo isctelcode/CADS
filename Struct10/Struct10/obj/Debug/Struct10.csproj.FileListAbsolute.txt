@@ -1,0 +1,7 @@
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct10\Struct10\bin\Debug\Struct10.exe.config
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct10\Struct10\bin\Debug\Struct10.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct10\Struct10\bin\Debug\Struct10.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct10\Struct10\obj\Debug\Struct10.csproj.AssemblyReference.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct10\Struct10\obj\Debug\Struct10.csproj.CoreCompileInputs.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct10\Struct10\obj\Debug\Struct10.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct10\Struct10\obj\Debug\Struct10.pdb

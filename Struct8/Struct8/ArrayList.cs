@@ -261,6 +261,10 @@ namespace Struct8
 
         public T Get(int index)
         {
+            if (IsEmpty())
+            {
+                throw new NullArrayListException();
+            }
             if (index < 0 || index >= size)
             {
                 throw new IndexOutOfRangeArrayListException();
@@ -270,6 +274,10 @@ namespace Struct8
 
         public int IndexOf(T element)
         {
+            if (IsEmpty())
+            {
+                throw new NullArrayListException();
+            }
             for (int i = 0; i < size; ++i)
             {
                 if (comparer.Compare(elementData[i], element) == 0)
@@ -282,6 +290,10 @@ namespace Struct8
 
         public int LastIndexOf(T element)
         {
+            if (IsEmpty())
+            {
+                throw new NullArrayListException();
+            }
             for (int i = size - 1; i >= 0; --i)
             {
                 if (comparer.Compare(elementData[i], element) == 0)
@@ -294,6 +306,10 @@ namespace Struct8
 
         public T RemoveReturn(int index)
         {
+            if (IsEmpty())
+            {
+                throw new NullArrayListException();
+            }
             if (index < 0 || index >= size)
             {
                 throw new IndexOutOfRangeArrayListException();
@@ -309,6 +325,10 @@ namespace Struct8
 
         public void Set(int index, T element)
         {
+            if (IsEmpty())
+            {
+                throw new NullArrayListException();
+            }
             if (index < 0 || index >= size)
             {
                 throw new IndexOutOfRangeArrayListException();
@@ -318,6 +338,10 @@ namespace Struct8
 
         public T[] SubList(int fromIndex, int toIndex)
         {
+            if (IsEmpty())
+            {
+                throw new NullArrayListException();
+            }
             if (fromIndex > toIndex)
             {
                 throw new InvalidIntervalArgumentException();
@@ -326,7 +350,7 @@ namespace Struct8
             {
                 throw new IndexOutOfRangeArrayListException();
             }
-            if (toIndex < 0 || toIndex >= size)
+            if (toIndex < 0 || toIndex > size)
             {
                 throw new IndexOutOfRangeArrayListException();
             }
