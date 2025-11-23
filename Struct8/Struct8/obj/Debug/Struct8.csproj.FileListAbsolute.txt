@@ -1,0 +1,8 @@
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct8\Struct8\bin\Debug\Struct8.exe.config
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct8\Struct8\bin\Debug\Struct8.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct8\Struct8\bin\Debug\Struct8.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct8\Struct8\obj\Debug\Struct8.csproj.AssemblyReference.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct8\Struct8\obj\Debug\Struct8.csproj.CoreCompileInputs.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct8\Struct8\obj\Debug\Struct8.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct8\Struct8\obj\Debug\Struct8.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct8\Struct8\obj\Debug\Struct8.exe.config

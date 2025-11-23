@@ -197,7 +197,7 @@ namespace Struct6
             T[] priorityQueue = new T[capacity];
         }
 
-        public bool Contains(object element)
+        public bool Contains(T element)
         {
             if (IsEmpty())
             {
@@ -205,7 +205,7 @@ namespace Struct6
             }
             for (int i = 0; i < size; ++i)
             {
-                if (comparer.Compare(priorityQueue[i], (T) element) == 0)
+                if (comparer.Compare(priorityQueue[i], element) == 0)
                 {
                     return true;
                 }

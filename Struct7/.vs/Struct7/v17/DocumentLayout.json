@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8F315E3-BB5E-4E87-824C-CE9E7A7CA068}|Struct7\\Struct7.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct7\\struct7\\priorityqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F8F315E3-BB5E-4E87-824C-CE9E7A7CA068}|Struct7\\Struct7.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct7\\struct7\\priorityqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8F315E3-BB5E-4E87-824C-CE9E7A7CA068}|Struct7\\Struct7.csproj|solutionrelative:struct7\\priorityqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{F8F315E3-BB5E-4E87-824C-CE9E7A7CA068}|Struct7\\Struct7.csproj|solutionrelative:struct7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8F315E3-BB5E-4E87-824C-CE9E7A7CA068}|Struct7\\Struct7.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct7\\struct7\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F8F315E3-BB5E-4E87-824C-CE9E7A7CA068}|Struct7\\Struct7.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct7\\struct7\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8F315E3-BB5E-4E87-824C-CE9E7A7CA068}|Struct7\\Struct7.csproj|solutionrelative:struct7\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -39,8 +39,7 @@
               "ViewState": "AgIAABAAAAAAAAAAAAAQwCEAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-20T11:17:30.983Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -56,8 +55,7 @@
               "RelativeToolTip": "Struct7\\Request.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T11:52:11.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-20T11:52:11.772Z"
             },
             {
               "$type": "Document",
@@ -67,7 +65,7 @@
               "RelativeDocumentMoniker": "Struct7\\PriorityQueue.cs",
               "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct7\\Struct7\\PriorityQueue.cs",
               "RelativeToolTip": "Struct7\\PriorityQueue.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAALoAAAAAAAAAAAAuwM8AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-20T11:18:15.887Z",
               "EditorCaption": ""
@@ -82,8 +80,7 @@
               "RelativeToolTip": "Struct7\\PriorityQueueException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T11:18:16.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-20T11:18:16.95Z"
             }
           ]
         }
