@@ -1,0 +1,8 @@
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct9\Struct9\bin\Debug\Struct9.exe.config
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct9\Struct9\bin\Debug\Struct9.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct9\Struct9\bin\Debug\Struct9.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct9\Struct9\obj\Debug\Struct9.csproj.AssemblyReference.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct9\Struct9\obj\Debug\Struct9.csproj.CoreCompileInputs.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct9\Struct9\obj\Debug\Struct9.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct9\Struct9\obj\Debug\Struct9.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct9\Struct9\obj\Debug\Struct9.exe.config

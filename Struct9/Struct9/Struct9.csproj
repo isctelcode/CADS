@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{79CDFEAE-69CE-4DDC-B513-A0D7718DC974}</ProjectGuid>
+    <ProjectGuid>{A0B2FD36-4783-4888-B30E-1A77F3E8D46D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Struct8</RootNamespace>
-    <AssemblyName>Struct8</AssemblyName>
+    <RootNamespace>Struct9</RootNamespace>
+    <AssemblyName>Struct9</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
