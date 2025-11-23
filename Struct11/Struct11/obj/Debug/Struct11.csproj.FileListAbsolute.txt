@@ -1,0 +1,8 @@
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct11\Struct11\bin\Debug\Struct11.exe.config
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct11\Struct11\bin\Debug\Struct11.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct11\Struct11\bin\Debug\Struct11.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct11\Struct11\obj\Debug\Struct11.csproj.AssemblyReference.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct11\Struct11\obj\Debug\Struct11.csproj.CoreCompileInputs.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct11\Struct11\obj\Debug\Struct11.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct11\Struct11\obj\Debug\Struct11.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct11\Struct11\obj\Debug\Struct11.exe.config

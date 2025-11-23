@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8F315E3-BB5E-4E87-824C-CE9E7A7CA068}|Struct7\\Struct7.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct7\\struct7\\priorityqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8F315E3-BB5E-4E87-824C-CE9E7A7CA068}|Struct7\\Struct7.csproj|solutionrelative:struct7\\priorityqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F8F315E3-BB5E-4E87-824C-CE9E7A7CA068}|Struct7\\Struct7.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct7\\struct7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8F315E3-BB5E-4E87-824C-CE9E7A7CA068}|Struct7\\Struct7.csproj|solutionrelative:struct7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8F315E3-BB5E-4E87-824C-CE9E7A7CA068}|Struct7\\Struct7.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct7\\struct7\\priorityqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8F315E3-BB5E-4E87-824C-CE9E7A7CA068}|Struct7\\Struct7.csproj|solutionrelative:struct7\\priorityqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8F315E3-BB5E-4E87-824C-CE9E7A7CA068}|Struct7\\Struct7.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct7\\struct7\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,20 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct7\\Struct7\\Program.cs",
               "RelativeDocumentMoniker": "Struct7\\Program.cs",
               "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct7\\Struct7\\Program.cs",
               "RelativeToolTip": "Struct7\\Program.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCEAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwBgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-20T11:17:30.983Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -59,13 +60,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PriorityQueue.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct7\\Struct7\\PriorityQueue.cs",
               "RelativeDocumentMoniker": "Struct7\\PriorityQueue.cs",
               "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct7\\Struct7\\PriorityQueue.cs",
               "RelativeToolTip": "Struct7\\PriorityQueue.cs",
-              "ViewState": "AgIAALoAAAAAAAAAAAAuwM8AAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAuwM8AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-20T11:18:15.887Z",
               "EditorCaption": ""
