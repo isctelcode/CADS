@@ -6,14 +6,6 @@ using System.Threading.Tasks;
 
 namespace Struct12
 {
-    class StackComparer<T> : IComparer<T>
-    {
-        public int Compare(T a, T b)
-        {
-            return Comparer<T>.Default.Compare(a, b);
-        }
-    }
-
     class Stack<T> : Vector<T>
     {
         public void Push(T item)

@@ -15,3 +15,4 @@ namespace Struct12
     {
         public OutOfMemoryStackException() : base("Недостаточно памяти для хранения динамического массива") { }
     }
+}

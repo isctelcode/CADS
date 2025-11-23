@@ -1,0 +1,8 @@
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct12\Struct12\obj\Debug\Struct12.csproj.AssemblyReference.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct12\Struct12\obj\Debug\Struct12.csproj.CoreCompileInputs.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct12\Struct12\bin\Debug\Struct12.exe.config
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct12\Struct12\bin\Debug\Struct12.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct12\Struct12\bin\Debug\Struct12.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct12\Struct12\obj\Debug\Struct12.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct12\Struct12\obj\Debug\Struct12.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct12\Struct12\obj\Debug\Struct12.exe.config
