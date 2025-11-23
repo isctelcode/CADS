@@ -1,0 +1,8 @@
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct7\Struct7\bin\Debug\Struct7.exe.config
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct7\Struct7\bin\Debug\Struct7.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct7\Struct7\bin\Debug\Struct7.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct7\Struct7\obj\Debug\Struct7.csproj.AssemblyReference.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct7\Struct7\obj\Debug\Struct7.csproj.CoreCompileInputs.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct7\Struct7\obj\Debug\Struct7.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct7\Struct7\obj\Debug\Struct7.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct7\Struct7\obj\Debug\Struct7.exe.config

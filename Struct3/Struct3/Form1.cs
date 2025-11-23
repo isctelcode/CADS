@@ -252,7 +252,7 @@ namespace Struct3
                         for (int j = 0; j < 20; ++j)
                             sort(sortedData[sortingsCounter][i][j]);
                         timer.Stop();
-                        algorithmTime[sortingsCounter, i] = timer.ElapsedMilliseconds / 20;
+                        algorithmTime[sortingsCounter, i] = timer.ElapsedMilliseconds;
                     }
                     ++sortingsCounter;
                 }
@@ -266,7 +266,7 @@ namespace Struct3
                         for (int j = 0; j < 20; ++j)
                             sort(sortedData[sortingsCounter][i][j]);
                         timer.Stop();
-                        algorithmTime[sortingsCounter, i] = timer.ElapsedMilliseconds / 20;
+                        algorithmTime[sortingsCounter, i] = timer.ElapsedMilliseconds;
                     }
                     ++sortingsCounter;
                 }

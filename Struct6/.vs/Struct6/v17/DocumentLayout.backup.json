@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8D4D3347-5EAE-4123-855A-28720CC4BD0A}|Struct6\\Struct6.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct6\\struct6\\priorityqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D4D3347-5EAE-4123-855A-28720CC4BD0A}|Struct6\\Struct6.csproj|solutionrelative:struct6\\priorityqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D4D3347-5EAE-4123-855A-28720CC4BD0A}|Struct6\\Struct6.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct6\\struct6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4D3347-5EAE-4123-855A-28720CC4BD0A}|Struct6\\Struct6.csproj|solutionrelative:struct6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D4D3347-5EAE-4123-855A-28720CC4BD0A}|Struct6\\Struct6.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct6\\struct6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D4D3347-5EAE-4123-855A-28720CC4BD0A}|Struct6\\Struct6.csproj|solutionrelative:struct6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D4D3347-5EAE-4123-855A-28720CC4BD0A}|Struct6\\Struct6.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct6\\struct6\\priorityqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4D3347-5EAE-4123-855A-28720CC4BD0A}|Struct6\\Struct6.csproj|solutionrelative:struct6\\priorityqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D4D3347-5EAE-4123-855A-28720CC4BD0A}|Struct6\\Struct6.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct6\\struct6\\priorityqueueexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct6\\Struct6\\Program.cs",
               "RelativeDocumentMoniker": "Struct6\\Program.cs",
               "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct6\\Struct6\\Program.cs",
               "RelativeToolTip": "Struct6\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBoAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-19T06:47:49.699Z",
               "IsPinned": true,
@@ -44,13 +44,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PriorityQueue.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct6\\Struct6\\PriorityQueue.cs",
               "RelativeDocumentMoniker": "Struct6\\PriorityQueue.cs",
               "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct6\\Struct6\\PriorityQueue.cs",
               "RelativeToolTip": "Struct6\\PriorityQueue.cs",
-              "ViewState": "AgIAAJkAAAAAAAAAAAAqwKwAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA9wKwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-19T06:49:22.226Z",
               "EditorCaption": ""
@@ -65,8 +65,7 @@
               "RelativeToolTip": "Struct6\\PriorityQueueException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T06:50:46.987Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-19T06:50:46.987Z"
             }
           ]
         }

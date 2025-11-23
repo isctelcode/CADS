@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{26BBFA26-3B89-41E4-80AC-C65417F0BC79}|Struct4\\Struct4.csproj|solutionrelative:struct4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26BBFA26-3B89-41E4-80AC-C65417F0BC79}|Struct4\\Struct4.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct4\\struct4\\sortalgorithms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26BBFA26-3B89-41E4-80AC-C65417F0BC79}|Struct4\\Struct4.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct4\\struct4\\sortalgorithms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26BBFA26-3B89-41E4-80AC-C65417F0BC79}|Struct4\\Struct4.csproj|solutionrelative:struct4\\sortalgorithms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26BBFA26-3B89-41E4-80AC-C65417F0BC79}|Struct4\\Struct4.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct4\\struct4\\arraygenerate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26BBFA26-3B89-41E4-80AC-C65417F0BC79}|Struct4\\Struct4.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct4\\struct4\\arraygenerate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26BBFA26-3B89-41E4-80AC-C65417F0BC79}|Struct4\\Struct4.csproj|solutionrelative:struct4\\arraygenerate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -61,7 +61,7 @@
               "RelativeDocumentMoniker": "Struct4\\Form1.cs",
               "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct4\\Struct4\\Form1.cs",
               "RelativeToolTip": "Struct4\\Form1.cs",
-              "ViewState": "AgIAAFgBAAAAAAAAAADgv2UBAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAABABAAAAAAAAAADgvycBAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T16:07:46.779Z",
               "EditorCaption": ""
@@ -74,7 +74,7 @@
               "RelativeDocumentMoniker": "Struct4\\SortAlgorithms.cs",
               "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct4\\Struct4\\SortAlgorithms.cs",
               "RelativeToolTip": "Struct4\\SortAlgorithms.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwAAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T16:07:35.813Z",
               "EditorCaption": ""
@@ -89,8 +89,7 @@
               "RelativeToolTip": "Struct4\\ArrayGenerate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T16:07:27.347Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T16:07:27.347Z"
             },
             {
               "$type": "Document",
