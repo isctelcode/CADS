@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct13\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A896AE9E-7FE4-4425-BFDD-AF58F26CA415}|Struct13\\Struct13.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct13\\struct13\\operation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A896AE9E-7FE4-4425-BFDD-AF58F26CA415}|Struct13\\Struct13.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct13\\struct13\\stackexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A896AE9E-7FE4-4425-BFDD-AF58F26CA415}|Struct13\\Struct13.csproj|solutionrelative:struct13\\stackexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A896AE9E-7FE4-4425-BFDD-AF58F26CA415}|Struct13\\Struct13.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct13\\struct13\\vectorexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A896AE9E-7FE4-4425-BFDD-AF58F26CA415}|Struct13\\Struct13.csproj|solutionrelative:struct13\\vectorexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A896AE9E-7FE4-4425-BFDD-AF58F26CA415}|Struct13\\Struct13.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct13\\struct13\\operation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A896AE9E-7FE4-4425-BFDD-AF58F26CA415}|Struct13\\Struct13.csproj|solutionrelative:struct13\\operation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A896AE9E-7FE4-4425-BFDD-AF58F26CA415}|Struct13\\Struct13.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct13\\struct13\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A896AE9E-7FE4-4425-BFDD-AF58F26CA415}|Struct13\\Struct13.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct13\\struct13\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A896AE9E-7FE4-4425-BFDD-AF58F26CA415}|Struct13\\Struct13.csproj|solutionrelative:struct13\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,7 +30,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct13\\Struct13\\Program.cs",
               "RelativeDocumentMoniker": "Struct13\\Program.cs",
@@ -31,7 +39,32 @@
               "ViewState": "AgIAAIIAAAAAAAAAAAAwwJgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T11:31:34.284Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VectorException.cs",
+              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct13\\Struct13\\VectorException.cs",
+              "RelativeDocumentMoniker": "Struct13\\VectorException.cs",
+              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct13\\Struct13\\VectorException.cs",
+              "RelativeToolTip": "Struct13\\VectorException.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBQAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T19:08:02.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StackException.cs",
+              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct13\\Struct13\\StackException.cs",
+              "RelativeDocumentMoniker": "Struct13\\StackException.cs",
+              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct13\\Struct13\\StackException.cs",
+              "RelativeToolTip": "Struct13\\StackException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T19:08:02.211Z",
               "EditorCaption": ""
             },
             {
@@ -40,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Operation.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct13\\Struct13\\Operation.cs",
               "RelativeDocumentMoniker": "Struct13\\Operation.cs",

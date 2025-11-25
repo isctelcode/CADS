@@ -8,11 +8,11 @@ namespace Struct13
 {
     class NullStackException : Exception
     {
-        public NullStackException() : base("Динамический массив пуст") { }
+        public NullStackException() : base("Стек пуст") { }
     }
 
     class OutOfMemoryStackException : OutOfMemoryException
     {
-        public OutOfMemoryStackException() : base("Недостаточно памяти для хранения динамического массива") { }
+        public OutOfMemoryStackException() : base("Недостаточно памяти для хранения стека") { }
     }
 }

@@ -1,0 +1,8 @@
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct16\Struct16\bin\Debug\Struct16.exe.config
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct16\Struct16\bin\Debug\Struct16.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct16\Struct16\bin\Debug\Struct16.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct16\Struct16\obj\Debug\Struct16.csproj.AssemblyReference.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct16\Struct16\obj\Debug\Struct16.csproj.CoreCompileInputs.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct16\Struct16\obj\Debug\Struct16.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct16\Struct16\obj\Debug\Struct16.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct16\Struct16\obj\Debug\Struct16.exe.config

@@ -8,17 +8,17 @@ namespace Struct15
 {
     class NullArrayDequeException : Exception
     {
-        public NullArrayDequeException() : base("Динамический массив пуст") { }
+        public NullArrayDequeException() : base("Дек пуст") { }
     }
 
     class OutOfMemoryArrayDequeException : OutOfMemoryException
     {
-        public OutOfMemoryArrayDequeException() : base("Недостаточно памяти для хранения динамического массива") { }
+        public OutOfMemoryArrayDequeException() : base("Недостаточно памяти для хранения дека") { }
     }
 
     class IndexOutOfRangeArrayDequeException : Exception
     {
-        public IndexOutOfRangeArrayDequeException() : base("Индекс вне границ динамического массива") { }
+        public IndexOutOfRangeArrayDequeException() : base("Индекс вне границ дека") { }
     }
 
     class InvalidIntervalArgumentException : Exception

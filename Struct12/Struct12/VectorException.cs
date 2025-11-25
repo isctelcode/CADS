@@ -8,17 +8,17 @@ namespace Struct12
 {
     class NullVectorException : Exception
     {
-        public NullVectorException() : base("Динамический массив пуст") { }
+        public NullVectorException() : base("Вектор пуст") { }
     }
 
     class OutOfMemoryVectorException : OutOfMemoryException
     {
-        public OutOfMemoryVectorException() : base("Недостаточно памяти для хранения динамического массива") { }
+        public OutOfMemoryVectorException() : base("Недостаточно памяти для хранения вектора") { }
     }
 
     class IndexOutOfRangeVectorException : Exception
     {
-        public IndexOutOfRangeVectorException() : base("Индекс вне границ динамического массива") { }
+        public IndexOutOfRangeVectorException() : base("Индекс вне границ вектора") { }
     }
 
     class InvalidIntervalArgumentException : Exception
