@@ -1,0 +1,8 @@
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct15\Struct15\bin\Debug\Struct15.exe.config
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct15\Struct15\bin\Debug\Struct15.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct15\Struct15\bin\Debug\Struct15.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct15\Struct15\obj\Debug\Struct15.csproj.AssemblyReference.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct15\Struct15\obj\Debug\Struct15.csproj.CoreCompileInputs.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct15\Struct15\obj\Debug\Struct15.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct15\Struct15\obj\Debug\Struct15.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct15\Struct15\obj\Debug\Struct15.exe.config
