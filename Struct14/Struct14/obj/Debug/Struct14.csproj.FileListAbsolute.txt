@@ -1,0 +1,8 @@
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct14\Struct14\obj\Debug\Struct14.csproj.AssemblyReference.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct14\Struct14\obj\Debug\Struct14.csproj.CoreCompileInputs.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct14\Struct14\bin\Debug\Struct14.exe.config
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct14\Struct14\bin\Debug\Struct14.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct14\Struct14\bin\Debug\Struct14.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct14\Struct14\obj\Debug\Struct14.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct14\Struct14\obj\Debug\Struct14.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct14\Struct14\obj\Debug\Struct14.exe.config
