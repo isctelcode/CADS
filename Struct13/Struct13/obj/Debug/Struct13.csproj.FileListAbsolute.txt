@@ -1,0 +1,8 @@
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct13\Struct13\bin\Debug\Struct13.exe.config
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct13\Struct13\bin\Debug\Struct13.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct13\Struct13\bin\Debug\Struct13.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct13\Struct13\obj\Debug\Struct13.csproj.AssemblyReference.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct13\Struct13\obj\Debug\Struct13.csproj.CoreCompileInputs.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct13\Struct13\obj\Debug\Struct13.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct13\Struct13\obj\Debug\Struct13.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct13\Struct13\obj\Debug\Struct13.exe.config
