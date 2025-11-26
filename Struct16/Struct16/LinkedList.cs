@@ -267,7 +267,10 @@ namespace Struct16
                     Node<T> newNode = new Node<T>(element);
                     newNode.Next = node;
                     newNode.Prev = node.Prev;
-                    node.Prev.Next = newNode;
+                    if (node.Prev != null)
+                    {
+                        node.Prev.Next = newNode;
+                    }
                     node.Prev = newNode;
                 }
                 ++size;
@@ -356,6 +359,11 @@ namespace Struct16
             for (int i = 0; i < index; ++i)
             {
                 node = node.Next;
+            }
+
+            if (node == null)
+            {
+                return (T)default;
             }
 
             if (node.Next != null)
