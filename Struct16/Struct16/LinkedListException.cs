@@ -8,7 +8,7 @@ namespace Struct16
 {
     class NullLinkedListException : Exception
     {
-        public NullLinkedListException() : base("Двунаправленный список") { }
+        public NullLinkedListException() : base("Двунаправленный список пуст") { }
     }
 
     class OutOfMemoryLinkedListException : OutOfMemoryException
