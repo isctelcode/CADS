@@ -1,0 +1,8 @@
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct20\Struct20\bin\Debug\Struct20.exe.config
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct20\Struct20\bin\Debug\Struct20.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct20\Struct20\bin\Debug\Struct20.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct20\Struct20\obj\Debug\Struct20.csproj.AssemblyReference.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct20\Struct20\obj\Debug\Struct20.csproj.CoreCompileInputs.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct20\Struct20\obj\Debug\Struct20.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct20\Struct20\obj\Debug\Struct20.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct20\Struct20\obj\Debug\Struct20.exe.config
