@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Struct25
+namespace Struct26
 {
     class HashSetComparer<T> : IComparer<T>
     {
