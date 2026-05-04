@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Struct26
+namespace Struct27
 {
     class HashSetComparer<T> : IComparer<T>
     {
@@ -98,6 +98,10 @@ namespace Struct26
                 if (size / table.Length > loadFactor)
                 {
                     LinkedList<Entry[]>[] newTable = new LinkedList<Entry[]>[table.Length * 2];
+                    for (int i = 0; i < table.Length * 2; ++i)
+                    {
+                        newTable[i] = new LinkedList<Entry[]>();
+                    }
                     for (int i = 0; i < table.Length; ++i)
                     {
                         foreach (Entry[] node in table[i])

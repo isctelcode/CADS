@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct21\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BF5273DC-4102-4207-ABA3-89570B657241}|Struct21\\Struct21.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct21\\struct21\\hashmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BF5273DC-4102-4207-ABA3-89570B657241}|Struct21\\Struct21.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct21\\struct21\\hashmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF5273DC-4102-4207-ABA3-89570B657241}|Struct21\\Struct21.csproj|solutionrelative:struct21\\hashmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF5273DC-4102-4207-ABA3-89570B657241}|Struct21\\Struct21.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct21\\struct21\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BF5273DC-4102-4207-ABA3-89570B657241}|Struct21\\Struct21.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct21\\struct21\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF5273DC-4102-4207-ABA3-89570B657241}|Struct21\\Struct21.csproj|solutionrelative:struct21\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,8 +35,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-29T07:06:01.271Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -62,7 +61,7 @@
               "RelativeDocumentMoniker": "Struct21\\HashMap.cs",
               "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct21\\Struct21\\HashMap.cs",
               "RelativeToolTip": "Struct21\\HashMap.cs",
-              "ViewState": "AgIAAKwAAAAAAAAAAAAwwMkAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAQwMkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-29T07:14:28.224Z",
               "EditorCaption": ""

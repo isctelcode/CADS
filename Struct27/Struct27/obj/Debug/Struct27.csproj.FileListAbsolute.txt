@@ -1,0 +1,8 @@
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct27\Struct27\bin\Debug\Struct27.exe.config
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct27\Struct27\bin\Debug\Struct27.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct27\Struct27\bin\Debug\Struct27.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct27\Struct27\obj\Debug\Struct27.csproj.AssemblyReference.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct27\Struct27\obj\Debug\Struct27.csproj.CoreCompileInputs.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct27\Struct27\obj\Debug\Struct27.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct27\Struct27\obj\Debug\Struct27.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct27\Struct27\obj\Debug\Struct27.exe.config

@@ -87,7 +87,7 @@ namespace Struct25
                 long hashElement = Hash(element);
                 foreach (Entry[] node in table[hashElement])
                 {
-                    if (comparer.Compare(node[0].ToString(), hashElement.ToString()) == 0)
+                    if (comparer.Compare(node[0].ToString(), element.ToString()) == 0)
                     {
                         return;
                     }

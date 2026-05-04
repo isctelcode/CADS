@@ -158,7 +158,7 @@ namespace Struct21
                 long hashKey = Hash(key);
                 foreach (Entry[] node in table[hashKey])
                 {
-                    if (comparer.Compare(node[0].ToString(), hashKey.ToString()) == 0)
+                    if (comparer.Compare(node[0].ToString(), key.ToString()) == 0)
                     {
                         node[1] = (Entry)value;
                         return;
