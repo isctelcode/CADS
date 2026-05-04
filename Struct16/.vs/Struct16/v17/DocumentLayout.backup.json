@@ -39,8 +39,7 @@
               "ViewState": "AgIAAAEAAAAAAAAAAAAkwBgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-25T18:47:25.507Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -56,8 +55,7 @@
               "RelativeToolTip": "Struct16\\Node.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T18:50:42.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T18:50:42.054Z"
             },
             {
               "$type": "Document",
@@ -67,7 +65,7 @@
               "RelativeDocumentMoniker": "Struct16\\LinkedList.cs",
               "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct16\\Struct16\\LinkedList.cs",
               "RelativeToolTip": "Struct16\\LinkedList.cs",
-              "ViewState": "AgIAALkCAAAAAAAAAADwvxIAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAuwEgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-25T18:47:57.07Z",
               "EditorCaption": ""
@@ -82,8 +80,7 @@
               "RelativeToolTip": "Struct16\\LinkedListException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T18:48:21.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T18:48:21.63Z"
             }
           ]
         }

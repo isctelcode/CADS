@@ -161,6 +161,7 @@ namespace Struct21
                     if (comparer.Compare(node[0].ToString(), hashKey.ToString()) == 0)
                     {
                         node[1] = (Entry)value;
+                        return;
                     }
                 }
                 Entry[] newNode = new Entry[] { (Entry)key, (Entry)value };
@@ -198,6 +199,8 @@ namespace Struct21
                     if (comparer.Compare(node[0].ToString(), searchKey) == 0)
                     {
                         table[hashKey].Remove(node);
+                        --size;
+                        return;
                     }
                 }
             }
