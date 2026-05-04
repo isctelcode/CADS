@@ -1,0 +1,8 @@
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct22\Struct22\bin\Debug\Struct22.exe.config
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct22\Struct22\bin\Debug\Struct22.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct22\Struct22\bin\Debug\Struct22.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct22\Struct22\obj\Debug\Struct22.csproj.AssemblyReference.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct22\Struct22\obj\Debug\Struct22.csproj.CoreCompileInputs.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct22\Struct22\obj\Debug\Struct22.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct22\Struct22\obj\Debug\Struct22.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct22\Struct22\obj\Debug\Struct22.exe.config

@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static System.Math;
 
-namespace Struct21
+namespace Struct22
 {
     class HashMapComparer<T> : IComparer<T>
     {
