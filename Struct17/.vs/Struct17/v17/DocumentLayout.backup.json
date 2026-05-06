@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct17\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26BBFA26-3B89-41E4-80AC-C65417F0BC79}|Struct17\\Struct17.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct17\\struct17\\linkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26BBFA26-3B89-41E4-80AC-C65417F0BC79}|Struct17\\Struct17.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct17\\struct17\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26BBFA26-3B89-41E4-80AC-C65417F0BC79}|Struct17\\Struct17.csproj|solutionrelative:struct17\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26BBFA26-3B89-41E4-80AC-C65417F0BC79}|Struct17\\Struct17.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct17\\struct17\\linkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26BBFA26-3B89-41E4-80AC-C65417F0BC79}|Struct17\\Struct17.csproj|solutionrelative:struct17\\linkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26BBFA26-3B89-41E4-80AC-C65417F0BC79}|Struct17\\Struct17.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct17\\struct17\\arraylistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26BBFA26-3B89-41E4-80AC-C65417F0BC79}|Struct17\\Struct17.csproj|solutionrelative:struct17\\arraylistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26BBFA26-3B89-41E4-80AC-C65417F0BC79}|Struct17\\Struct17.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct17\\struct17\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26BBFA26-3B89-41E4-80AC-C65417F0BC79}|Struct17\\Struct17.csproj|solutionrelative:struct17\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26BBFA26-3B89-41E4-80AC-C65417F0BC79}|Struct17\\Struct17.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct17\\struct17\\linkedlistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,20 +34,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct17\\Struct17\\Form1.cs",
               "RelativeDocumentMoniker": "Struct17\\Form1.cs",
               "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct17\\Struct17\\Form1.cs",
               "RelativeToolTip": "Struct17\\Form1.cs",
-              "ViewState": "AgIAABIBAAAAAAAAAAAqwC0BAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAC0BAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-26T15:33:37.973Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -67,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ArrayListException.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct17\\Struct17\\ArrayListException.cs",
               "RelativeDocumentMoniker": "Struct17\\ArrayListException.cs",
@@ -79,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LinkedList.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct17\\Struct17\\LinkedList.cs",
               "RelativeDocumentMoniker": "Struct17\\LinkedList.cs",
@@ -87,8 +88,7 @@
               "RelativeToolTip": "Struct17\\LinkedList.cs",
               "ViewState": "AgIAAPoAAAAAAAAAAAAUwA4BAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T16:19:34.987Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-26T16:19:34.987Z"
             },
             {
               "$type": "Document",

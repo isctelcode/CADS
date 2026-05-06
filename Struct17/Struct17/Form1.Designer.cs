@@ -112,4 +112,3 @@
         private ZedGraph.ZedGraphControl graph;
     }
 }
-
