@@ -1,0 +1,8 @@
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct23\Struct23\bin\Debug\Struct23.exe.config
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct23\Struct23\bin\Debug\Struct23.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct23\Struct23\bin\Debug\Struct23.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct23\Struct23\obj\Debug\Struct23.csproj.AssemblyReference.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct23\Struct23\obj\Debug\Struct23.csproj.CoreCompileInputs.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct23\Struct23\obj\Debug\Struct23.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct23\Struct23\obj\Debug\Struct23.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct23\Struct23\obj\Debug\Struct23.exe.config

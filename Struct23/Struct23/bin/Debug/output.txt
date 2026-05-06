@@ -1,0 +1,4 @@
+int => var(8)
+float => tred(8,9)
+float => tred(76,4)
+double => ras_34(3,1415)
