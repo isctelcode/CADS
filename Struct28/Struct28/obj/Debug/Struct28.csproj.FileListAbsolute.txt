@@ -1,0 +1,8 @@
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct28\Struct28\bin\Debug\Struct28.exe.config
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct28\Struct28\bin\Debug\Struct28.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct28\Struct28\bin\Debug\Struct28.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct28\Struct28\obj\Debug\Struct28.csproj.AssemblyReference.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct28\Struct28\obj\Debug\Struct28.csproj.CoreCompileInputs.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct28\Struct28\obj\Debug\Struct28.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct28\Struct28\obj\Debug\Struct28.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct28\Struct28\obj\Debug\Struct28.exe.config
