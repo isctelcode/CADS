@@ -11,7 +11,7 @@ namespace Struct16
         static void Main(string[] args)
         {
             int[] array1 = new int[] { 13, -3, 43, 5, 1, 0, 0, 23, 4, 6, 32, 53, 28, 84, 64 };
-            LinkedList<int> intLinkedList = new LinkedList<int>(array1);
+            MyLinkedList<int> intLinkedList = new MyLinkedList<int>(array1);
             Console.WriteLine(String.Join(" ", intLinkedList.ToArray()));
             Console.WriteLine(intLinkedList.Size());
             intLinkedList.Add(15, 42);
@@ -27,7 +27,7 @@ namespace Struct16
 
             string[] array2 = new string[] { "abas", "lol", "xd", "aeiou", "isctel" };
             string[] array3 = new string[] { "aboba" };
-            LinkedList<string> stringLinkedList = new LinkedList<string>();
+            MyLinkedList<string> stringLinkedList = new MyLinkedList<string>();
             stringLinkedList.Add(array3[0]);
             stringLinkedList.AddAll(array2);
             Console.WriteLine(stringLinkedList.PollLast());

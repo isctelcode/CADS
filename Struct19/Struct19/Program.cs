@@ -10,7 +10,7 @@ namespace Struct19
     {
         static void Main(string[] args)
         {
-            TreeSet<int> set = new TreeSet<int>();
+            MyTreeSet<int> set = new MyTreeSet<int>();
             set.Add(13);
             set.Add(28);
             set.Add(773);

@@ -43,8 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HashMap.cs" />
-    <Compile Include="HashMapException.cs" />
+    <Compile Include="MyHashMap.cs" />
+    <Compile Include="MyHashMapException.cs" />
+    <Compile Include="MyLinkedList.cs" />
+    <Compile Include="MyLinkedListException.cs" />
+    <Compile Include="MyLinkedListNode.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -12,9 +12,9 @@ namespace Struct11
         static void Main(string[] args)
         {
             string[] file = File.ReadAllLines("input.txt");
-            Vector<string> strings = new Vector<string>(file);
-            Vector<string> addresses = new Vector<string>();
-            Vector<string> correctAddresses = new Vector<string>();
+            MyVector<string> strings = new MyVector<string>(file);
+            MyVector<string> addresses = new MyVector<string>();
+            MyVector<string> correctAddresses = new MyVector<string>();
             string piece = "";
 
             for (int i = 0; i < strings.Size(); ++i)

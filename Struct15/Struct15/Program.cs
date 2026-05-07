@@ -16,7 +16,7 @@ namespace Struct15
             string[] file = File.ReadAllLines("input.txt");
             Console.WriteLine(String.Join(" ", file));
             Console.WriteLine();
-            ArrayDeque<string> intStrings = new ArrayDeque<string>();
+            MyArrayDeque<string> intStrings = new MyArrayDeque<string>();
             intStrings.Add(file[0]);
             int maxIntCount = 0;
             for (int i = 0; i < file[0].Length; ++i)
@@ -59,7 +59,7 @@ namespace Struct15
             }
             Console.Write("Введите предельное количество пробелов в строке >> ");
             int n = Convert.ToInt32(Console.ReadLine());
-            ArrayDeque<string> wrongStringsDeque = new ArrayDeque<string>();
+            MyArrayDeque<string> wrongStringsDeque = new MyArrayDeque<string>();
             for (int i = 0; i < intStrings.Size(); ++i)
             {
                 int spaceCount = 0;

@@ -11,7 +11,7 @@ namespace Struct26
     {
         static void Main(string[] args)
         {
-            HashSet<string> fileSet = new HashSet<string>(File.ReadAllLines("input.txt"));
+            MyHashSet<string> fileSet = new MyHashSet<string>(File.ReadAllLines("input.txt"));
             string[] strings = fileSet.ToArray();
             string[][] words = new string[strings.Length][];
             for (int i = 0; i < strings.Length; ++i)

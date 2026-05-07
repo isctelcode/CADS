@@ -11,7 +11,7 @@ namespace Struct6
         static void Main(string[] args)
         {
             int[] array1 = new int[] { 13, -3, 43, 5, 1, 0, 0, 23, 4, 6, 32, 53, 28, 84, 64 };
-            PriorityQueue<int> intPriorityQueue = new PriorityQueue<int>(array1);
+            MyPriorityQueue<int> intPriorityQueue = new MyPriorityQueue<int>(array1);
             Console.WriteLine(intPriorityQueue.Peek());
             intPriorityQueue.Add(13);
             intPriorityQueue.Add(3);
@@ -23,7 +23,7 @@ namespace Struct6
 
             string[] array2 = new string[] { "abas", "lol", "xd", "aeiou", "isctel" };
             string[] array3 = new string[] { "aboba" };
-            PriorityQueue<string> stringPriorityQueue = new PriorityQueue<string>(16);
+            MyPriorityQueue<string> stringPriorityQueue = new MyPriorityQueue<string>(16);
             stringPriorityQueue.Add(array3[0]);
             stringPriorityQueue.AddAll(array2);
             Console.WriteLine(stringPriorityQueue.Peek());

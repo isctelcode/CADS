@@ -13,7 +13,7 @@ namespace Struct7
     {
         static void Main(string[] args)
         {
-            PriorityQueue<Request> requests = new PriorityQueue<Request>();
+            MyPriorityQueue<Request> requests = new MyPriorityQueue<Request>();
 
             Console.Write("Введите количество итераций добавления заявок >> ");
             int n = Convert.ToInt32(Console.ReadLine());

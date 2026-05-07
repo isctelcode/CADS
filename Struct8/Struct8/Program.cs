@@ -11,7 +11,7 @@ namespace Struct8
         static void Main(string[] args)
         {
             int[] array1 = new int[] { 13, -3, 43, 5, 1, 0, 0, 23, 4, 6, 32, 53, 28, 84, 64 };
-            ArrayList<int> intArrayList = new ArrayList<int>(array1);
+            MyArrayList<int> intArrayList = new MyArrayList<int>(array1);
             Console.WriteLine(String.Join(" ", intArrayList.ToArray()));
             intArrayList.Add(42);
             intArrayList.Add(5);
@@ -25,7 +25,7 @@ namespace Struct8
 
             string[] array2 = new string[] { "abas", "lol", "xd", "aeiou", "isctel" };
             string[] array3 = new string[] { "aboba" };
-            ArrayList<string> stringArrayList = new ArrayList<string>();
+            MyArrayList<string> stringArrayList = new MyArrayList<string>();
             stringArrayList.Add(array3[0]);
             stringArrayList.AddAll(array2);
             Console.WriteLine(stringArrayList.RemoveReturn(2));

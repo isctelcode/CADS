@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct23\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F2701D88-F655-4E20-B261-FF4413439AA9}|Struct23\\Struct23.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct23\\struct23\\hashmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2701D88-F655-4E20-B261-FF4413439AA9}|Struct23\\Struct23.csproj|solutionrelative:struct23\\hashmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2701D88-F655-4E20-B261-FF4413439AA9}|Struct23\\Struct23.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct23\\struct23\\myhashmapexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2701D88-F655-4E20-B261-FF4413439AA9}|Struct23\\Struct23.csproj|solutionrelative:struct23\\myhashmapexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2701D88-F655-4E20-B261-FF4413439AA9}|Struct23\\Struct23.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct23\\struct23\\myhashmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2701D88-F655-4E20-B261-FF4413439AA9}|Struct23\\Struct23.csproj|solutionrelative:struct23\\myhashmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2701D88-F655-4E20-B261-FF4413439AA9}|Struct23\\Struct23.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct23\\struct23\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2701D88-F655-4E20-B261-FF4413439AA9}|Struct23\\Struct23.csproj|solutionrelative:struct23\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2701D88-F655-4E20-B261-FF4413439AA9}|Struct23\\Struct23.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct23\\struct23\\hashmapexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2701D88-F655-4E20-B261-FF4413439AA9}|Struct23\\Struct23.csproj|solutionrelative:struct23\\hashmapexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2701D88-F655-4E20-B261-FF4413439AA9}|Struct23\\Struct23.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct23\\struct23\\mylinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2701D88-F655-4E20-B261-FF4413439AA9}|Struct23\\Struct23.csproj|solutionrelative:struct23\\mylinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2701D88-F655-4E20-B261-FF4413439AA9}|Struct23\\Struct23.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct23\\struct23\\mylinkedlistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2701D88-F655-4E20-B261-FF4413439AA9}|Struct23\\Struct23.csproj|solutionrelative:struct23\\mylinkedlistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2701D88-F655-4E20-B261-FF4413439AA9}|Struct23\\Struct23.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct23\\struct23\\mylinkedlistnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2701D88-F655-4E20-B261-FF4413439AA9}|Struct23\\Struct23.csproj|solutionrelative:struct23\\mylinkedlistnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +34,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct23\\Struct23\\Program.cs",
               "RelativeDocumentMoniker": "Struct23\\Program.cs",
               "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct23\\Struct23\\Program.cs",
               "RelativeToolTip": "Struct23\\Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwC0AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-06T18:21:22.269Z",
               "IsPinned": true,
@@ -44,28 +56,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HashMap.cs",
-              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct23\\Struct23\\HashMap.cs",
-              "RelativeDocumentMoniker": "Struct23\\HashMap.cs",
-              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct23\\Struct23\\HashMap.cs",
-              "RelativeToolTip": "Struct23\\HashMap.cs",
-              "ViewState": "AgIAAJUAAAAAAAAAAAAlwK4AAAAVAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "MyLinkedListNode.cs",
+              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct23\\Struct23\\MyLinkedListNode.cs",
+              "RelativeDocumentMoniker": "Struct23\\MyLinkedListNode.cs",
+              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct23\\Struct23\\MyLinkedListNode.cs",
+              "RelativeToolTip": "Struct23\\MyLinkedListNode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T18:21:52.501Z",
+              "WhenOpened": "2026-05-07T14:13:34.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyLinkedListException.cs",
+              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct23\\Struct23\\MyLinkedListException.cs",
+              "RelativeDocumentMoniker": "Struct23\\MyLinkedListException.cs",
+              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct23\\Struct23\\MyLinkedListException.cs",
+              "RelativeToolTip": "Struct23\\MyLinkedListException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T14:13:31.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyLinkedList.cs",
+              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct23\\Struct23\\MyLinkedList.cs",
+              "RelativeDocumentMoniker": "Struct23\\MyLinkedList.cs",
+              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct23\\Struct23\\MyLinkedList.cs",
+              "RelativeToolTip": "Struct23\\MyLinkedList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T14:13:28.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyHashMapException.cs",
+              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct23\\Struct23\\MyHashMapException.cs",
+              "RelativeDocumentMoniker": "Struct23\\MyHashMapException.cs",
+              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct23\\Struct23\\MyHashMapException.cs",
+              "RelativeToolTip": "Struct23\\MyHashMapException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T14:13:25.968Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HashMapException.cs",
-              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct23\\Struct23\\HashMapException.cs",
-              "RelativeDocumentMoniker": "Struct23\\HashMapException.cs",
-              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct23\\Struct23\\HashMapException.cs",
-              "RelativeToolTip": "Struct23\\HashMapException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "MyHashMap.cs",
+              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct23\\Struct23\\MyHashMap.cs",
+              "RelativeDocumentMoniker": "Struct23\\MyHashMap.cs",
+              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct23\\Struct23\\MyHashMap.cs",
+              "RelativeToolTip": "Struct23\\MyHashMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T18:22:07.5Z"
+              "WhenOpened": "2026-05-07T14:13:23.062Z",
+              "EditorCaption": ""
             }
           ]
         }

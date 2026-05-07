@@ -18,7 +18,7 @@ namespace Struct23
             {
                 fileString = fileString + strings[i];
             }
-            HashMap<string> vars = new HashMap<string>();
+            MyHashMap<string> vars = new MyHashMap<string>();
             MatchCollection declars = Regex.Matches(fileString, @"\w+\s\w+[\s]=[\s][0-9,]+;");
             using (StreamWriter input = new StreamWriter("output.txt", false, System.Text.Encoding.Default))
             {

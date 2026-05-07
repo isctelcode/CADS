@@ -12,7 +12,7 @@ namespace Struct22
     {
         static void Main(string[] args)
         {
-            HashMap<string> hashMap = new HashMap<string>();
+            MyHashMap<string> hashMap = new MyHashMap<string>();
             string[] strings = File.ReadAllLines("input.txt");
             for (int i = 0; i < strings.Length; i++)
             {

@@ -12,7 +12,7 @@ namespace Struct27
     {
         static void Main(string[] args)
         {
-            HashSet<string> uniqueWords = new HashSet<string>();
+            MyHashSet<string> uniqueWords = new MyHashSet<string>();
             string[] strings = File.ReadAllLines("input.txt");
             string[][] words = new string[strings.Length][];
             for (int i = 0; i < strings.Length; ++i)

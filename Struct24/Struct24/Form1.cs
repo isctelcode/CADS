@@ -54,8 +54,8 @@ namespace Struct24
             Random random = new Random();
             long[] hashMapOperationTime = new long[4];
             long[] treeMapOperationTime = new long[4];
-            HashMap<int> hashMap;
-            TreeMap<int> treeMap;
+            MyHashMap<int> hashMap;
+            MyTreeMap<int> treeMap;
             switch (operationType)
             {
                 case 1:
@@ -63,7 +63,7 @@ namespace Struct24
                     for (int i = 0; i < 4; ++i)
                     {
                         timer = new Stopwatch();
-                        hashMap = new HashMap<int>();
+                        hashMap = new MyHashMap<int>();
                         for (int j = 0; j < Pow(10, i + 2) - 1; ++j)
                         {
                             hashMap.Put(j, j);
@@ -80,7 +80,7 @@ namespace Struct24
                     for (int i = 0; i < 4; ++i)
                     {
                         timer = new Stopwatch();
-                        treeMap = new TreeMap<int>();
+                        treeMap = new MyTreeMap<int>();
                         for (int j = 0; j < Pow(10, i + 2) - 1; ++j)
                         {
                             treeMap.Put(j, j);
@@ -99,7 +99,7 @@ namespace Struct24
                     for (int i = 0; i < 4; ++i)
                     {
                         timer = new Stopwatch();
-                        hashMap = new HashMap<int>();
+                        hashMap = new MyHashMap<int>();
                         timer.Start();
                         for (int j = 0; j < Pow(10, i + 2) - 1; ++j)
                         {
@@ -112,7 +112,7 @@ namespace Struct24
                     for (int i = 0; i < 4; ++i)
                     {
                         timer = new Stopwatch();
-                        treeMap = new TreeMap<int>();
+                        treeMap = new MyTreeMap<int>();
                         timer.Start();
                         for (int j = 0; j < Pow(10, i + 2) - 1; ++j)
                         {
@@ -127,7 +127,7 @@ namespace Struct24
                     for (int i = 0; i < 4; ++i)
                     {
                         timer = new Stopwatch();
-                        hashMap = new HashMap<int>();
+                        hashMap = new MyHashMap<int>();
                         for (int j = 0; j < Pow(10, i + 2) - 1; ++j)
                         {
                             hashMap.Put(j, j);
@@ -144,7 +144,7 @@ namespace Struct24
                     for (int i = 0; i < 4; ++i)
                     {
                         timer = new Stopwatch();
-                        treeMap = new TreeMap<int>();
+                        treeMap = new MyTreeMap<int>();
                         for (int j = 0; j < Pow(10, i + 2) - 1; ++j)
                         {
                             treeMap.Put(j, j);

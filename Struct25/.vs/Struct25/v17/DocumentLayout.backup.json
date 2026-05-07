@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct25\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C19B956A-0247-40CC-8B84-23C89F5B35E5}|Struct25\\Struct25.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct25\\struct25\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C19B956A-0247-40CC-8B84-23C89F5B35E5}|Struct25\\Struct25.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct25\\struct25\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C19B956A-0247-40CC-8B84-23C89F5B35E5}|Struct25\\Struct25.csproj|solutionrelative:struct25\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C19B956A-0247-40CC-8B84-23C89F5B35E5}|Struct25\\Struct25.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct25\\struct25\\hashset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C19B956A-0247-40CC-8B84-23C89F5B35E5}|Struct25\\Struct25.csproj|solutionrelative:struct25\\hashset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C19B956A-0247-40CC-8B84-23C89F5B35E5}|Struct25\\Struct25.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct25\\struct25\\myhashset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C19B956A-0247-40CC-8B84-23C89F5B35E5}|Struct25\\Struct25.csproj|solutionrelative:struct25\\myhashset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C19B956A-0247-40CC-8B84-23C89F5B35E5}|Struct25\\Struct25.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct25\\struct25\\hashsetexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C19B956A-0247-40CC-8B84-23C89F5B35E5}|Struct25\\Struct25.csproj|solutionrelative:struct25\\hashsetexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C19B956A-0247-40CC-8B84-23C89F5B35E5}|Struct25\\Struct25.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct25\\struct25\\mylinkedlistnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C19B956A-0247-40CC-8B84-23C89F5B35E5}|Struct25\\Struct25.csproj|solutionrelative:struct25\\mylinkedlistnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C19B956A-0247-40CC-8B84-23C89F5B35E5}|Struct25\\Struct25.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct25\\struct25\\mylinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C19B956A-0247-40CC-8B84-23C89F5B35E5}|Struct25\\Struct25.csproj|solutionrelative:struct25\\mylinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C19B956A-0247-40CC-8B84-23C89F5B35E5}|Struct25\\Struct25.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct25\\struct25\\mylinkedlistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C19B956A-0247-40CC-8B84-23C89F5B35E5}|Struct25\\Struct25.csproj|solutionrelative:struct25\\mylinkedlistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C19B956A-0247-40CC-8B84-23C89F5B35E5}|Struct25\\Struct25.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct25\\struct25\\myhashsetexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C19B956A-0247-40CC-8B84-23C89F5B35E5}|Struct25\\Struct25.csproj|solutionrelative:struct25\\myhashsetexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,7 +44,7 @@
               "RelativeDocumentMoniker": "Struct25\\Program.cs",
               "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct25\\Struct25\\Program.cs",
               "RelativeToolTip": "Struct25\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAADwvyQAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCQAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-04T16:45:14.559Z",
               "IsPinned": true,
@@ -45,12 +57,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HashSet.cs",
-              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct25\\Struct25\\HashSet.cs",
-              "RelativeDocumentMoniker": "Struct25\\HashSet.cs",
-              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct25\\Struct25\\HashSet.cs",
-              "RelativeToolTip": "Struct25\\HashSet.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAgwFkAAAA+AAAAAAAAAA==",
+              "Title": "MyHashSet.cs",
+              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct25\\Struct25\\MyHashSet.cs",
+              "RelativeDocumentMoniker": "Struct25\\MyHashSet.cs",
+              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct25\\Struct25\\MyHashSet.cs",
+              "RelativeToolTip": "Struct25\\MyHashSet.cs",
+              "ViewState": "AgIAAN4AAAAAAAAAAAAQwPAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-04T16:45:40.7Z",
               "EditorCaption": ""
@@ -58,14 +70,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "HashSetException.cs",
-              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct25\\Struct25\\HashSetException.cs",
-              "RelativeDocumentMoniker": "Struct25\\HashSetException.cs",
-              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct25\\Struct25\\HashSetException.cs",
-              "RelativeToolTip": "Struct25\\HashSetException.cs",
+              "Title": "MyLinkedListNode.cs",
+              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct25\\Struct25\\MyLinkedListNode.cs",
+              "RelativeDocumentMoniker": "Struct25\\MyLinkedListNode.cs",
+              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct25\\Struct25\\MyLinkedListNode.cs",
+              "RelativeToolTip": "Struct25\\MyLinkedListNode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T15:02:11.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyLinkedListException.cs",
+              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct25\\Struct25\\MyLinkedListException.cs",
+              "RelativeDocumentMoniker": "Struct25\\MyLinkedListException.cs",
+              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct25\\Struct25\\MyLinkedListException.cs",
+              "RelativeToolTip": "Struct25\\MyLinkedListException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T15:02:08.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyLinkedList.cs",
+              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct25\\Struct25\\MyLinkedList.cs",
+              "RelativeDocumentMoniker": "Struct25\\MyLinkedList.cs",
+              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct25\\Struct25\\MyLinkedList.cs",
+              "RelativeToolTip": "Struct25\\MyLinkedList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T15:02:03.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MyHashSetException.cs",
+              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct25\\Struct25\\MyHashSetException.cs",
+              "RelativeDocumentMoniker": "Struct25\\MyHashSetException.cs",
+              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct25\\Struct25\\MyHashSetException.cs",
+              "RelativeToolTip": "Struct25\\MyHashSetException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T16:45:56.145Z"
+              "WhenOpened": "2026-05-04T16:45:56.145Z",
+              "EditorCaption": ""
             }
           ]
         }

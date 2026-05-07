@@ -43,8 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArrayList.cs" />
-    <Compile Include="ArrayListException.cs" />
+    <Compile Include="MyArrayList.cs" />
+    <Compile Include="MyArrayListException.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

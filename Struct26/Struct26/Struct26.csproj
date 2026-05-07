@@ -43,8 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HashSet.cs" />
-    <Compile Include="HashSetException.cs" />
+    <Compile Include="MyHashSet.cs" />
+    <Compile Include="MyHashSetException.cs" />
+    <Compile Include="MyLinkedList.cs" />
+    <Compile Include="MyLinkedListException.cs" />
+    <Compile Include="MyLinkedListNode.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

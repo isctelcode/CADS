@@ -14,9 +14,9 @@ namespace Struct28
         }
     }
 
-    class MyHashSet<Entry>
+    class MyHashSet<T>
     {
-        private LinkedList<Entry[]>[] table = new LinkedList<Entry[]>[0];
+        private MyLinkedList<T[]>[] table = new MyLinkedList<T[]>[0];
         private int size = 0;
         private float loadFactor = 0.75f;
         private HashSetComparer<String> comparer = new HashSetComparer<String>();
@@ -64,9 +64,9 @@ namespace Struct28
             }
         }
 
-        public MyItr<Entry> Iterator()
+        public MyItr<T> Iterator()
         {
-            return new MyItr<Entry>(ToArray());
+            return new MyItr<T>(ToArray());
         }
 
         public long Hash(object e)
@@ -83,21 +83,21 @@ namespace Struct28
 
         public MyHashSet()
         {
-            table = new LinkedList<Entry[]>[16];
+            table = new MyLinkedList<T[]>[16];
             for (int i = 0; i < 16; ++i)
             {
-                table[i] = new LinkedList<Entry[]>();
+                table[i] = new MyLinkedList<T[]>();
             }
             size = 0;
             loadFactor = 0.75f;
         }
 
-        public MyHashSet(Entry[] elements)
+        public MyHashSet(T[] elements)
         {
-            table = new LinkedList<Entry[]>[elements.Length * 2];
+            table = new MyLinkedList<T[]>[elements.Length * 2];
             for (int i = 0; i < elements.Length * 2; ++i)
             {
-                table[i] = new LinkedList<Entry[]>();
+                table[i] = new MyLinkedList<T[]>();
             }
             loadFactor = 0.75f;
             for (int i = 0; i < elements.Length; ++i)
@@ -108,10 +108,10 @@ namespace Struct28
 
         public MyHashSet(int initialCapacity)
         {
-            table = new LinkedList<Entry[]>[initialCapacity];
+            table = new MyLinkedList<T[]>[initialCapacity];
             for (int i = 0; i < initialCapacity; ++i)
             {
-                table[i] = new LinkedList<Entry[]>();
+                table[i] = new MyLinkedList<T[]>();
             }
             size = 0;
             this.loadFactor = 0.75f;
@@ -119,10 +119,10 @@ namespace Struct28
 
         public MyHashSet(int initialCapacity, float loadFactor)
         {
-            table = new LinkedList<Entry[]>[initialCapacity];
+            table = new MyLinkedList<T[]>[initialCapacity];
             for (int i = 0; i < initialCapacity; ++i)
             {
-                table[i] = new LinkedList<Entry[]>();
+                table[i] = new MyLinkedList<T[]>();
             }
             size = 0;
             this.loadFactor = loadFactor;
@@ -133,24 +133,30 @@ namespace Struct28
             try
             {
                 long hashElement = Hash(element);
-                foreach (Entry[] node in table[hashElement])
+                T[][] hashElements = table[hashElement].ToArray();
+                foreach (T[] node in hashElements)
                 {
                     if (comparer.Compare(node[0].ToString(), element.ToString()) == 0)
                     {
                         return;
                     }
                 }
-                Entry[] newNode = new Entry[] { (Entry)element, default(Entry) };
+                T[] newNode = new T[] { (T)element, default(T) };
                 table[Hash(element)].AddLast(newNode);
                 ++size;
                 if (size / table.Length > loadFactor)
                 {
-                    LinkedList<Entry[]>[] newTable = new LinkedList<Entry[]>[table.Length * 2];
+                    MyLinkedList<T[]>[] newTable = new MyLinkedList<T[]>[table.Length * 2];
+                    for (int i = 0; i < table.Length * 2; ++i)
+                    {
+                        newTable[i] = new MyLinkedList<T[]>();
+                    }
                     for (int i = 0; i < table.Length; ++i)
                     {
-                        foreach (Entry[] node in table[i])
+                        T[][] hashNodes = table[i].ToArray();
+                        foreach (T[] node in hashNodes)
                         {
-                            newNode = new Entry[] { node[0], node[1] };
+                            newNode = new T[] { node[0], node[1] };
                             newTable[Hash(node[0])].AddLast(newNode);
                         }
                     }
@@ -164,7 +170,7 @@ namespace Struct28
             }
         }
 
-        public void AddAll(Entry[] elements)
+        public void AddAll(T[] elements)
         {
             for (int i = 0; i < elements.Length; ++i)
             {
@@ -174,7 +180,7 @@ namespace Struct28
 
         public void Clear()
         {
-            table = new LinkedList<Entry[]>[table.Length];
+            table = new MyLinkedList<T[]>[table.Length];
             size = 0;
         }
 
@@ -182,9 +188,10 @@ namespace Struct28
         {
             string searchElement = element.ToString();
             long hashElement = Hash(searchElement);
-            if (table[hashElement].First != null)
+            if (table[hashElement].Size() != 0)
             {
-                foreach (Entry[] node in table[hashElement])
+                T[][] hashElements = table[hashElement].ToArray();
+                foreach (T[] node in hashElements)
                 {
                     if (comparer.Compare(node[0].ToString(), searchElement) == 0)
                     {
@@ -195,7 +202,7 @@ namespace Struct28
             return false;
         }
 
-        public bool ContainsAll(Entry[] elements)
+        public bool ContainsAll(T[] elements)
         {
             for (int i = 0; i < elements.Length; ++i)
             {
@@ -216,21 +223,24 @@ namespace Struct28
         {
             string searchElement = element.ToString();
             long elementKey = Hash(searchElement);
-            if (table[elementKey].First != null)
+            if (table[elementKey].Size() != 0)
             {
-                foreach (Entry[] node in table[elementKey])
+                T[][] elementKeys = table[elementKey].ToArray();
+                int removeIndex = 0;
+                foreach (T[] node in elementKeys)
                 {
                     if (comparer.Compare(node[0].ToString(), searchElement) == 0)
                     {
-                        table[elementKey].Remove(node);
+                        table[elementKey].Remove(removeIndex);
                         --size;
                         return;
                     }
+                    ++removeIndex;
                 }
             }
         }
 
-        public void RemoveAll(Entry[] elements)
+        public void RemoveAll(T[] elements)
         {
             for (int i = 0; i < elements.Length; ++i)
             {
@@ -238,11 +248,12 @@ namespace Struct28
             }
         }
 
-        public void RetainAll(Entry[] elements)
+        public void RetainAll(T[] elements)
         {
             for (int i = 0; i < table.Length; ++i)
             {
-                foreach (Entry[] node in table[i])
+                T[][] hashNodes = table[i].ToArray();
+                foreach (T[] node in hashNodes)
                 {
                     bool deleteFlag = true;
                     for (int j = 0; j < elements.Length; ++j)
@@ -268,13 +279,14 @@ namespace Struct28
             return size;
         }
 
-        public Entry[] ToArray()
+        public T[] ToArray()
         {
-            Entry[] elements = new Entry[size];
+            T[] elements = new T[size];
             int counter = 0;
             for (int i = 0; i < table.Length; ++i)
             {
-                foreach (Entry[] node in table[i])
+                T[][] hashNodes = table[i].ToArray();
+                foreach (T[] node in hashNodes)
                 {
                     elements[counter] = node[0];
                     ++counter;

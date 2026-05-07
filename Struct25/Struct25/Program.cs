@@ -10,7 +10,7 @@ namespace Struct25
     {
         static void Main(string[] args)
         {
-            HashSet<int> hashSet = new HashSet<int>(32);
+            MyHashSet<int> hashSet = new MyHashSet<int>(32);
             hashSet.Add(20);
             hashSet.Add(8);
             hashSet.Add(456);
@@ -36,7 +36,7 @@ namespace Struct25
 
             Console.WriteLine(String.Join(" ", hashSet.ToArray()));
 
-            HashSet<string> stringHashSet = new HashSet<string>(64);
+            MyHashSet<string> stringHashSet = new MyHashSet<string>(64);
             stringHashSet.Add("a moon shaped pool");
             stringHashSet.Add("fake plastic trees");
             stringHashSet.Add("black star");

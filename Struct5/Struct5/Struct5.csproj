@@ -43,8 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Heap.cs" />
-    <Compile Include="HeapException.cs" />
+    <Compile Include="MyHeap.cs" />
+    <Compile Include="MyHeapException.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

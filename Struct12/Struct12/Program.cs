@@ -11,7 +11,7 @@ namespace Struct12
         static void Main(string[] args)
         {
             int[] array1 = new int[] { 13, -3, 43, 5, 1, 0, 0, 23, 4, 6, 32, 53, 28, 84, 64 };
-            Stack<int> intStack = new Stack<int>();
+            MyStack<int> intStack = new MyStack<int>();
             for (int i = 0; i < array1.Length; ++i)
             {
                 intStack.Push(array1[i]);
@@ -28,7 +28,7 @@ namespace Struct12
             }
 
             string[] array2 = new string[] { "abas", "lol", "xd", "aeiou", "isctel" };
-            Stack<string> stringStack = new Stack<string>();
+            MyStack<string> stringStack = new MyStack<string>();
             stringStack.Push(array2[0]);
             stringStack.Push(array2[1]);
             stringStack.Pop();

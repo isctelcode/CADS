@@ -59,8 +59,8 @@ namespace Struct3
             Random random = new Random();
             long[] arrayListOperationTime = new long[4];
             long[] linkedListOperationTime = new long[4];
-            ArrayList<int> arrayList;
-            LinkedList<int> linkedList;
+            MyArrayList<int> arrayList;
+            MyLinkedList<int> linkedList;
             switch (operationType)
             {
                 case 1:
@@ -68,7 +68,7 @@ namespace Struct3
                     for (int i = 0; i < 4; ++i)
                     {
                         timer = new Stopwatch();
-                        arrayList = new ArrayList<int>();
+                        arrayList = new MyArrayList<int>();
                         timer.Start();
                         for (int j = 0; j < Pow(10, i + 2) - 1; ++j)
                         {
@@ -81,7 +81,7 @@ namespace Struct3
                     for (int i = 0; i < 4; ++i)
                     {
                         timer = new Stopwatch();
-                        linkedList = new LinkedList<int>();
+                        linkedList = new MyLinkedList<int>();
                         timer.Start();
                         for (int j = 0; j < Pow(10, i + 2) - 1; ++j)
                         {
@@ -96,7 +96,7 @@ namespace Struct3
                     for (int i = 0; i < 4; ++i)
                     {
                         timer = new Stopwatch();
-                        arrayList = new ArrayList<int>();
+                        arrayList = new MyArrayList<int>();
                         for (int j = 0; j < Pow(10, i + 2) - 1; ++j)
                         {
                             arrayList.Add(1);
@@ -113,7 +113,7 @@ namespace Struct3
                     for (int i = 0; i < 4; ++i)
                     {
                         timer = new Stopwatch();
-                        linkedList = new LinkedList<int>();
+                        linkedList = new MyLinkedList<int>();
                         for (int j = 0; j < Pow(10, i + 2) - 1; ++j)
                         {
                             linkedList.Add(1);
@@ -132,7 +132,7 @@ namespace Struct3
                     for (int i = 0; i < 4; ++i)
                     {
                         timer = new Stopwatch();
-                        arrayList = new ArrayList<int>();
+                        arrayList = new MyArrayList<int>();
                         for (int j = 0; j < Pow(10, i + 2) - 1; ++j)
                         {
                             arrayList.Add(1);
@@ -149,7 +149,7 @@ namespace Struct3
                     for (int i = 0; i < 4; ++i)
                     {
                         timer = new Stopwatch();
-                        linkedList = new LinkedList<int>();
+                        linkedList = new MyLinkedList<int>();
                         for (int j = 0; j < Pow(10, i + 2) - 1; ++j)
                         {
                             linkedList.Add(1);
@@ -168,7 +168,7 @@ namespace Struct3
                     for (int i = 0; i < 4; ++i)
                     {
                         timer = new Stopwatch();
-                        arrayList = new ArrayList<int>();
+                        arrayList = new MyArrayList<int>();
                         for (int j = 0; j < Pow(10, i + 2) - 1; ++j)
                         {
                             arrayList.Add(1);
@@ -185,7 +185,7 @@ namespace Struct3
                     for (int i = 0; i < 4; ++i)
                     {
                         timer = new Stopwatch();
-                        linkedList = new LinkedList<int>();
+                        linkedList = new MyLinkedList<int>();
                         for (int j = 0; j < Pow(10, i + 2) - 1; ++j)
                         {
                             linkedList.Add(1);
@@ -204,7 +204,7 @@ namespace Struct3
                     for (int i = 0; i < 4; ++i)
                     {
                         timer = new Stopwatch();
-                        arrayList = new ArrayList<int>();
+                        arrayList = new MyArrayList<int>();
                         for (int j = 0; j < Pow(10, i + 2) - 1; ++j)
                         {
                             arrayList.Add(1);
@@ -221,7 +221,7 @@ namespace Struct3
                     for (int i = 0; i < 4; ++i)
                     {
                         timer = new Stopwatch();
-                        linkedList = new LinkedList<int>();
+                        linkedList = new MyLinkedList<int>();
                         for (int j = 0; j < Pow(10, i + 2) - 1; ++j)
                         {
                             linkedList.Add(1);

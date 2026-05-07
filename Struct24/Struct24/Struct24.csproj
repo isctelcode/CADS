@@ -55,13 +55,16 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="HashMap.cs" />
-    <Compile Include="HashMapException.cs" />
-    <Compile Include="Node.cs" />
+    <Compile Include="MyHashMap.cs" />
+    <Compile Include="MyHashMapException.cs" />
+    <Compile Include="MyLinkedList.cs" />
+    <Compile Include="MyLinkedListException.cs" />
+    <Compile Include="MyLinkedListNode.cs" />
+    <Compile Include="MyTreeMapNode.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TreeMap.cs" />
-    <Compile Include="TreeMapException.cs" />
+    <Compile Include="MyTreeMap.cs" />
+    <Compile Include="MyTreeMapException.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

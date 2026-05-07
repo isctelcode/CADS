@@ -12,7 +12,7 @@ namespace Struct9
         static void Main(string[] args)
         {
             string[] file = File.ReadAllLines("data.txt");
-            ArrayList<string> tags = new ArrayList<string>();
+            MyArrayList<string> tags = new MyArrayList<string>();
 
             foreach (string line in file)
             {

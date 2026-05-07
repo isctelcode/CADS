@@ -49,17 +49,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArrayList.cs" />
-    <Compile Include="ArrayListException.cs" />
+    <Compile Include="MyArrayList.cs" />
+    <Compile Include="MyArrayListException.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="LinkedList.cs" />
-    <Compile Include="LinkedListException.cs" />
-    <Compile Include="Node.cs" />
+    <Compile Include="MyLinkedList.cs" />
+    <Compile Include="MyLinkedListException.cs" />
+    <Compile Include="MyLinkedListNode.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">

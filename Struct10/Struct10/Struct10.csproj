@@ -43,8 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Vector.cs" />
-    <Compile Include="VectorException.cs" />
+    <Compile Include="MyVector.cs" />
+    <Compile Include="MyVectorException.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

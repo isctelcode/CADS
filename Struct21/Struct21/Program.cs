@@ -10,7 +10,7 @@ namespace Struct21
     {
         static void Main(string[] args)
         {
-            HashMap<int> hashMap = new HashMap<int>(32);
+            MyHashMap<int> hashMap = new MyHashMap<int>(32);
             hashMap.Put(120, 20);
             hashMap.Put(23, 8);
             hashMap.Put(16789, 456);
@@ -24,8 +24,10 @@ namespace Struct21
             hashMap.Put(1, 8123);
             hashMap.EntrySet();
             Console.WriteLine(hashMap.Get(16789));
+            hashMap.Remove(16789);
+            hashMap.EntrySet();
 
-            HashMap<string> stringHashMap = new HashMap<string>(64);
+            MyHashMap<string> stringHashMap = new MyHashMap<string>(64);
             stringHashMap.Put("a moon", "shaped pool");
             stringHashMap.Put("fake", "plastic trees");
             stringHashMap.Put("black", "star");

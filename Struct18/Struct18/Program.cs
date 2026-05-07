@@ -11,7 +11,7 @@ namespace Struct18
     {
         static void Main(string[] args)
         {
-            TreeMap<int> treeMap = new TreeMap<int>();
+            MyTreeMap<int> treeMap = new MyTreeMap<int>();
             treeMap.Put(12, 2411);
             treeMap.Put(11, 234);
             treeMap.Put(3, 97);

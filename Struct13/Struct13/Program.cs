@@ -12,8 +12,8 @@ namespace Struct13
 {
     class Program
     {
-        static Stack<double> numbers = new Stack<double>();
-        static Stack<Operation> operations = new Stack<Operation>();
+        static MyStack<double> numbers = new MyStack<double>();
+        static MyStack<Operation> operations = new MyStack<Operation>();
 
         static void Operate(string operation)
         {

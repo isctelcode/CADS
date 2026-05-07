@@ -43,11 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Node.cs" />
+    <Compile Include="MyTreeSetNode.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TreeSet.cs" />
-    <Compile Include="TreeSetException.cs" />
+    <Compile Include="MyTreeSet.cs" />
+    <Compile Include="MyTreeSetException.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
