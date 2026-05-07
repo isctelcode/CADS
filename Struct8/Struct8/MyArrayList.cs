@@ -13,7 +13,7 @@ using System.Xml.Linq;
 
 namespace Struct8
 {
-    class ArrayListComparer<T> : IComparer<T>
+    public class ArrayListComparer<T> : IComparer<T>
     {
         public int Compare(T a, T b)
         {
@@ -21,7 +21,7 @@ namespace Struct8
         }
     }
 
-    class MyArrayList<T>
+    public class MyArrayList<T>
     {
         private T[] elementData = new T[1];
         private int size = 0;

@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct19\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A9D117E-BF72-4F81-B972-104DD13F992B}|Struct19\\Struct19.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct19\\struct19\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A9D117E-BF72-4F81-B972-104DD13F992B}|Struct19\\Struct19.csproj|solutionrelative:struct19\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A9D117E-BF72-4F81-B972-104DD13F992B}|Struct19\\Struct19.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct19\\struct19\\mytreesetexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A9D117E-BF72-4F81-B972-104DD13F992B}|Struct19\\Struct19.csproj|solutionrelative:struct19\\mytreesetexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A9D117E-BF72-4F81-B972-104DD13F992B}|Struct19\\Struct19.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct19\\struct19\\mytreeset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A9D117E-BF72-4F81-B972-104DD13F992B}|Struct19\\Struct19.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct19\\struct19\\mytreeset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A9D117E-BF72-4F81-B972-104DD13F992B}|Struct19\\Struct19.csproj|solutionrelative:struct19\\mytreeset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A9D117E-BF72-4F81-B972-104DD13F992B}|Struct19\\Struct19.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct19\\struct19\\mytreesetnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A9D117E-BF72-4F81-B972-104DD13F992B}|Struct19\\Struct19.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct19\\struct19\\mylinkedlistnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A9D117E-BF72-4F81-B972-104DD13F992B}|Struct19\\Struct19.csproj|solutionrelative:struct19\\mylinkedlistnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A9D117E-BF72-4F81-B972-104DD13F992B}|Struct19\\Struct19.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct19\\struct19\\mylinkedlistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A9D117E-BF72-4F81-B972-104DD13F992B}|Struct19\\Struct19.csproj|solutionrelative:struct19\\mylinkedlistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A9D117E-BF72-4F81-B972-104DD13F992B}|Struct19\\Struct19.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct19\\struct19\\mylinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A9D117E-BF72-4F81-B972-104DD13F992B}|Struct19\\Struct19.csproj|solutionrelative:struct19\\mylinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A9D117E-BF72-4F81-B972-104DD13F992B}|Struct19\\Struct19.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct19\\struct19\\mytreesetexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A9D117E-BF72-4F81-B972-104DD13F992B}|Struct19\\Struct19.csproj|solutionrelative:struct19\\mytreesetexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A9D117E-BF72-4F81-B972-104DD13F992B}|Struct19\\Struct19.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct19\\struct19\\mytreesetnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A9D117E-BF72-4F81-B972-104DD13F992B}|Struct19\\Struct19.csproj|solutionrelative:struct19\\mytreesetnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A9D117E-BF72-4F81-B972-104DD13F992B}|Struct19\\Struct19.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct19\\struct19\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A9D117E-BF72-4F81-B972-104DD13F992B}|Struct19\\Struct19.csproj|solutionrelative:struct19\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct19\\Struct19\\Program.cs",
               "RelativeDocumentMoniker": "Struct19\\Program.cs",
@@ -39,8 +51,7 @@
               "ViewState": "AgIAABAAAAAAAAAAAAAQwCIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-23T17:55:29.565Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -49,6 +60,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MyLinkedListNode.cs",
+              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct19\\Struct19\\MyLinkedListNode.cs",
+              "RelativeDocumentMoniker": "Struct19\\MyLinkedListNode.cs",
+              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct19\\Struct19\\MyLinkedListNode.cs",
+              "RelativeToolTip": "Struct19\\MyLinkedListNode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T19:30:27.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyLinkedListException.cs",
+              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct19\\Struct19\\MyLinkedListException.cs",
+              "RelativeDocumentMoniker": "Struct19\\MyLinkedListException.cs",
+              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct19\\Struct19\\MyLinkedListException.cs",
+              "RelativeToolTip": "Struct19\\MyLinkedListException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T19:30:24.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyLinkedList.cs",
+              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct19\\Struct19\\MyLinkedList.cs",
+              "RelativeDocumentMoniker": "Struct19\\MyLinkedList.cs",
+              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct19\\Struct19\\MyLinkedList.cs",
+              "RelativeToolTip": "Struct19\\MyLinkedList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T19:30:19.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MyTreeSetException.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct19\\Struct19\\MyTreeSetException.cs",
               "RelativeDocumentMoniker": "Struct19\\MyTreeSetException.cs",
@@ -56,34 +105,32 @@
               "RelativeToolTip": "Struct19\\MyTreeSetException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T17:57:47.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T17:57:47.201Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MyTreeSet.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct19\\Struct19\\MyTreeSet.cs",
               "RelativeDocumentMoniker": "Struct19\\MyTreeSet.cs",
               "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct19\\Struct19\\MyTreeSet.cs",
               "RelativeToolTip": "Struct19\\MyTreeSet.cs",
-              "ViewState": "AgIAANUBAAAAAAAAAAAkwH4BAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAALsBAAAAAAAAAAAgwBkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-23T17:56:27.649Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "MyTreeSetNode.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct19\\Struct19\\MyTreeSetNode.cs",
               "RelativeDocumentMoniker": "Struct19\\MyTreeSetNode.cs",
               "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct19\\Struct19\\MyTreeSetNode.cs",
               "RelativeToolTip": "Struct19\\MyTreeSetNode.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAIwBIAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T17:57:07.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T17:57:07.372Z"
             }
           ]
         }

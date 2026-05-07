@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -9,14 +10,14 @@ using System.Xml.Linq;
 
 namespace Struct19
 {
-    class TreeSetComparer<T> : IComparer<T>
+    public class TreeSetComparer<T> : IComparer<T>
     {
         public int Compare(T a, T b)
         {
             return Comparer<T>.Default.Compare(a, b);
         }
     }
-    class MyTreeSet<T>
+    public class MyTreeSet<T>
     {
         private MyTreeSetNode<T> root = null;
         private int size = 0;
@@ -557,61 +558,73 @@ namespace Struct19
             return Last(root);
         }
 
-        private void SubSet(MyTreeSetNode<T> x, T fromElement, T toElement)
+        MyLinkedList<T> subSet;
+
+        private void SubSetSearch(MyTreeSetNode<T> x, T fromElement, T toElement)
         {
             if (x == null)
             {
                 return;
             }
-            SubSet(x.Left, fromElement, toElement);
+            SubSetSearch(x.Left, fromElement, toElement);
             if (comparer.Compare(x.Value.Item1, fromElement) > 0 && comparer.Compare(x.Value.Item1, toElement) < 0)
             {
-                Console.Write(x.Value.Item1 + " ");
+                subSet.AddLast(x.Value.Item1);
             }
-            SubSet(x.Right, fromElement, toElement);
+            SubSetSearch(x.Right, fromElement, toElement);
         }
 
-        public void SubSet(T fromElement, T toElement)
+        public MyLinkedList<T> SubSet(T fromElement, T toElement)
         {
-            SubSet(root, fromElement, toElement);
+            subSet = new MyLinkedList<T>();
+            SubSetSearch(root, fromElement, toElement);
+            return subSet;
         }
 
-        private void HeadSet(MyTreeSetNode<T> x, T toElement)
+        MyLinkedList<T> headSet;
+
+        private void HeadSetSearch(MyTreeSetNode<T> x, T toElement)
         {
             if (x == null)
             {
                 return;
             }
-            HeadSet(x.Left, toElement);
+            HeadSetSearch(x.Left, toElement);
             if (comparer.Compare(x.Value.Item1, toElement) < 0)
             {
-                Console.Write(x.Value.Item1 + " ");
+                headSet.AddLast(x.Value.Item1);
             }
-            HeadSet(x.Right, toElement);
+            HeadSetSearch(x.Right, toElement);
         }
 
-        public void HeadSet(T toElement)
+        public MyLinkedList<T> HeadSet(T toElement)
         {
-            HeadSet(root, toElement);
+            headSet = new MyLinkedList<T>();
+            HeadSetSearch(root, toElement);
+            return headSet;
         }
 
-        private void TailSet(MyTreeSetNode<T> x, T fromElement)
+        MyLinkedList<T> tailSet;
+
+        private void TailSetSearch(MyTreeSetNode<T> x, T fromElement)
         {
             if (x == null)
             {
                 return;
             }
-            TailSet(x.Left, fromElement);
+            TailSetSearch(x.Left, fromElement);
             if (comparer.Compare(x.Value.Item1, fromElement) > 0)
             {
-                Console.Write(x.Value.Item1 + " ");
+                tailSet.AddLast(x.Value.Item1);
             }
-            TailSet(x.Right, fromElement);
+            TailSetSearch(x.Right, fromElement);
         }
 
-        public void TailSet(T fromElement)
+        public MyLinkedList<T> TailSet(T fromElement)
         {
-            TailSet(root, fromElement);
+            tailSet = new MyLinkedList<T>();
+            TailSetSearch(root, fromElement);
+            return tailSet;
         }
 
         public T Ceiling(T value)
@@ -705,61 +718,67 @@ namespace Struct19
             return default(T);
         }
 
-        private void SubSet(MyTreeSetNode<T> x, T lowerBound, bool lowIncl, T upperBound, bool highIncl)
+        private void SubSetSearch(MyTreeSetNode<T> x, T lowerBound, bool lowIncl, T upperBound, bool highIncl)
         {
             if (x == null)
             {
                 return;
             }
-            SubSet(x.Left, lowerBound, lowIncl, upperBound, highIncl);
+            SubSetSearch(x.Left, lowerBound, lowIncl, upperBound, highIncl);
             if ((comparer.Compare(x.Value.Item1, lowerBound) > 0 || lowIncl && comparer.Compare(x.Value.Item1, lowerBound) == 0) && (comparer.Compare(x.Value.Item1, upperBound) < 0 || highIncl && comparer.Compare(x.Value.Item1, upperBound) == 0))
             {
-                Console.Write(x.Value.Item1 + " ");
+                subSet.AddLast(x.Value.Item1);
             }
-            SubSet(x.Right, lowerBound, lowIncl, upperBound, highIncl);
+            SubSetSearch(x.Right, lowerBound, lowIncl, upperBound, highIncl);
         }
 
-        public void SubSet(T lowerBound, bool lowIncl, T upperBound, bool highIncl)
+        public MyLinkedList<T> SubSet(T lowerBound, bool lowIncl, T upperBound, bool highIncl)
         {
-            SubSet(root, lowerBound, lowIncl, upperBound, highIncl);
+            subSet = new MyLinkedList<T>();
+            SubSetSearch(root, lowerBound, lowIncl, upperBound, highIncl);
+            return subSet;
         }
 
-        private void HeadSet(MyTreeSetNode<T> x, T upperBound, bool highIncl)
+        private void HeadSetSearch(MyTreeSetNode<T> x, T upperBound, bool highIncl)
         {
             if (x == null)
             {
                 return;
             }
-            HeadSet(x.Left, upperBound, highIncl);
+            HeadSetSearch(x.Left, upperBound, highIncl);
             if (comparer.Compare(x.Value.Item1, upperBound) < 0 || highIncl && comparer.Compare(x.Value.Item1, upperBound) == 0)
             {
-                Console.Write(x.Value.Item1 + " ");
+                headSet.AddLast(x.Value.Item1);
             }
-            HeadSet(x.Right, upperBound, highIncl);
+            HeadSetSearch(x.Right, upperBound, highIncl);
         }
 
-        public void HeadSet(T upperBound, bool highIncl)
+        public MyLinkedList<T> HeadSet(T upperBound, bool highIncl)
         {
-            HeadSet(root, upperBound, highIncl);
+            headSet = new MyLinkedList<T>();
+            HeadSetSearch(root, upperBound, highIncl);
+            return headSet;
         }
 
-        private void TailSet(MyTreeSetNode<T> x, T lowerBound, bool lowIncl)
+        private void TailSetSearch(MyTreeSetNode<T> x, T lowerBound, bool lowIncl)
         {
             if (x == null)
             {
                 return;
             }
-            TailSet(x.Left, lowerBound, lowIncl);
+            TailSetSearch(x.Left, lowerBound, lowIncl);
             if (comparer.Compare(x.Value.Item1, lowerBound) > 0 || lowIncl && comparer.Compare(x.Value.Item1, lowerBound) == 0)
             {
-                Console.Write(x.Value.Item1 + " ");
+                tailSet.AddLast(x.Value.Item1);
             }
-            TailSet(x.Right, lowerBound, lowIncl);
+            TailSetSearch(x.Right, lowerBound, lowIncl);
         }
 
-        public void TailSet(T lowerBound, bool lowIncl)
+        public MyLinkedList<T> TailSet(T lowerBound, bool lowIncl)
         {
-            TailSet(root, lowerBound, lowIncl);
+            tailSet = new MyLinkedList<T>();
+            TailSetSearch(root, lowerBound, lowIncl);
+            return tailSet;
         }
 
         private T PollFirst(MyTreeSetNode<T> x)

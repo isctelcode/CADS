@@ -9,7 +9,7 @@ using static System.Math;
 //Поиск КСС Тарьяна, Построение максимального потока Диница, Построение максимальной клики эвристическим "слиянием"
 namespace Struct20
 {
-    class Program
+    internal class Program
     {
         static List<int>[] graph;
 

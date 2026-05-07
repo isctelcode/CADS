@@ -9,14 +9,14 @@ using System.Xml.Linq;
 
 namespace Struct28
 {
-    class TreeSetComparer<T> : IComparer<T>
+    public class TreeSetComparer<T> : IComparer<T>
     {
         public int Compare(T a, T b)
         {
             return Comparer<T>.Default.Compare(a, b);
         }
     }
-    class MyTreeSet<T>
+    public class MyTreeSet<T>
     {
         private MyTreeSetNode<T> root = null;
         private int size = 0;

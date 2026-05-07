@@ -21,8 +21,8 @@ namespace Struct28
         public IndexOutOfRangeLinkedListException() : base("Индекс вне границ двунаправленного списка") { }
     }
 
-    class InvalidIntervalArgumentException : Exception
+    class InvalidIntervalArgumentLinkedListException : Exception
     {
-        public InvalidIntervalArgumentException() : base("Индексы интервала заданы некорректно") { }
+        public InvalidIntervalArgumentLinkedListException() : base("Индексы интервала заданы некорректно") { }
     }
 }

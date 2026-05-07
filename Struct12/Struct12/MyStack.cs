@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Struct12
 {
-    class MyStack<T> : MyVector<T>
+    public class MyStack<T> : MyVector<T>
     {
         public void Push(T item)
         {

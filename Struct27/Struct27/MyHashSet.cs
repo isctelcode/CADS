@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Struct27
 {
-    class HashSetComparer<T> : IComparer<T>
+    public class HashSetComparer<T> : IComparer<T>
     {
         public int Compare(T a, T b)
         {
@@ -14,7 +14,7 @@ namespace Struct27
         }
     }
 
-    class MyHashSet<T>
+    public class MyHashSet<T>
     {
         private MyLinkedList<T[]>[] table = new MyLinkedList<T[]>[0];
         private int size = 0;

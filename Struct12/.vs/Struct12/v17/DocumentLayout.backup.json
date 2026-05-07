@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct12\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5663ED15-082D-4D9C-832F-652FE2973DE8}|Struct12\\Struct12.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct12\\struct12\\vectorexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5663ED15-082D-4D9C-832F-652FE2973DE8}|Struct12\\Struct12.csproj|solutionrelative:struct12\\vectorexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5663ED15-082D-4D9C-832F-652FE2973DE8}|Struct12\\Struct12.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct12\\struct12\\myvector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5663ED15-082D-4D9C-832F-652FE2973DE8}|Struct12\\Struct12.csproj|solutionrelative:struct12\\myvector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5663ED15-082D-4D9C-832F-652FE2973DE8}|Struct12\\Struct12.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct12\\struct12\\stackexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5663ED15-082D-4D9C-832F-652FE2973DE8}|Struct12\\Struct12.csproj|solutionrelative:struct12\\stackexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5663ED15-082D-4D9C-832F-652FE2973DE8}|Struct12\\Struct12.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct12\\struct12\\mystackexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5663ED15-082D-4D9C-832F-652FE2973DE8}|Struct12\\Struct12.csproj|solutionrelative:struct12\\mystackexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5663ED15-082D-4D9C-832F-652FE2973DE8}|Struct12\\Struct12.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct12\\struct12\\stack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5663ED15-082D-4D9C-832F-652FE2973DE8}|Struct12\\Struct12.csproj|solutionrelative:struct12\\stack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5663ED15-082D-4D9C-832F-652FE2973DE8}|Struct12\\Struct12.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct12\\struct12\\mystack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5663ED15-082D-4D9C-832F-652FE2973DE8}|Struct12\\Struct12.csproj|solutionrelative:struct12\\mystack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5663ED15-082D-4D9C-832F-652FE2973DE8}|Struct12\\Struct12.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct12\\struct12\\myvectorexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5663ED15-082D-4D9C-832F-652FE2973DE8}|Struct12\\Struct12.csproj|solutionrelative:struct12\\myvectorexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5663ED15-082D-4D9C-832F-652FE2973DE8}|Struct12\\Struct12.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct12\\struct12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5663ED15-082D-4D9C-832F-652FE2973DE8}|Struct12\\Struct12.csproj|solutionrelative:struct12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5663ED15-082D-4D9C-832F-652FE2973DE8}|Struct12\\Struct12.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct12\\struct12\\vector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5663ED15-082D-4D9C-832F-652FE2973DE8}|Struct12\\Struct12.csproj|solutionrelative:struct12\\vector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct12\\Struct12\\Program.cs",
               "RelativeDocumentMoniker": "Struct12\\Program.cs",
@@ -52,12 +52,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Stack.cs",
-              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct12\\Struct12\\Stack.cs",
-              "RelativeDocumentMoniker": "Struct12\\Stack.cs",
-              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct12\\Struct12\\Stack.cs",
-              "RelativeToolTip": "Struct12\\Stack.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Title": "MyStack.cs",
+              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct12\\Struct12\\MyStack.cs",
+              "RelativeDocumentMoniker": "Struct12\\MyStack.cs",
+              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct12\\Struct12\\MyStack.cs",
+              "RelativeToolTip": "Struct12\\MyStack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-23T21:46:55.477Z",
               "EditorCaption": ""
@@ -65,11 +65,11 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "StackException.cs",
-              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct12\\Struct12\\StackException.cs",
-              "RelativeDocumentMoniker": "Struct12\\StackException.cs",
-              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct12\\Struct12\\StackException.cs",
-              "RelativeToolTip": "Struct12\\StackException.cs",
+              "Title": "MyStackException.cs",
+              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct12\\Struct12\\MyStackException.cs",
+              "RelativeDocumentMoniker": "Struct12\\MyStackException.cs",
+              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct12\\Struct12\\MyStackException.cs",
+              "RelativeToolTip": "Struct12\\MyStackException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-23T21:47:09.483Z",
@@ -77,25 +77,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Vector.cs",
-              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct12\\Struct12\\Vector.cs",
-              "RelativeDocumentMoniker": "Struct12\\Vector.cs",
-              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct12\\Struct12\\Vector.cs",
-              "RelativeToolTip": "Struct12\\Vector.cs",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAcwBkAAAArAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MyVector.cs",
+              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct12\\Struct12\\MyVector.cs",
+              "RelativeDocumentMoniker": "Struct12\\MyVector.cs",
+              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct12\\Struct12\\MyVector.cs",
+              "RelativeToolTip": "Struct12\\MyVector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T21:46:32.949Z"
+              "WhenOpened": "2025-11-23T21:46:32.949Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VectorException.cs",
-              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct12\\Struct12\\VectorException.cs",
-              "RelativeDocumentMoniker": "Struct12\\VectorException.cs",
-              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct12\\Struct12\\VectorException.cs",
-              "RelativeToolTip": "Struct12\\VectorException.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABQAAABRAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "MyVectorException.cs",
+              "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct12\\Struct12\\MyVectorException.cs",
+              "RelativeDocumentMoniker": "Struct12\\MyVectorException.cs",
+              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct12\\Struct12\\MyVectorException.cs",
+              "RelativeToolTip": "Struct12\\MyVectorException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-23T21:46:33.745Z",
               "EditorCaption": ""

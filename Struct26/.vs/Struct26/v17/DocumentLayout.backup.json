@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct26\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1EF37D9B-AC0F-4966-BE5B-F222A3603CEE}|Struct26\\Struct26.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct26\\struct26\\mylinkedlistnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EF37D9B-AC0F-4966-BE5B-F222A3603CEE}|Struct26\\Struct26.csproj|solutionrelative:struct26\\mylinkedlistnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EF37D9B-AC0F-4966-BE5B-F222A3603CEE}|Struct26\\Struct26.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct26\\struct26\\mylinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EF37D9B-AC0F-4966-BE5B-F222A3603CEE}|Struct26\\Struct26.csproj|solutionrelative:struct26\\mylinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EF37D9B-AC0F-4966-BE5B-F222A3603CEE}|Struct26\\Struct26.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct26\\struct26\\myhashset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EF37D9B-AC0F-4966-BE5B-F222A3603CEE}|Struct26\\Struct26.csproj|solutionrelative:struct26\\myhashset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1EF37D9B-AC0F-4966-BE5B-F222A3603CEE}|Struct26\\Struct26.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct26\\struct26\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1EF37D9B-AC0F-4966-BE5B-F222A3603CEE}|Struct26\\Struct26.csproj|solutionrelative:struct26\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EF37D9B-AC0F-4966-BE5B-F222A3603CEE}|Struct26\\Struct26.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct26\\struct26\\myhashset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EF37D9B-AC0F-4966-BE5B-F222A3603CEE}|Struct26\\Struct26.csproj|solutionrelative:struct26\\myhashset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EF37D9B-AC0F-4966-BE5B-F222A3603CEE}|Struct26\\Struct26.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct26\\struct26\\myhashsetexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1EF37D9B-AC0F-4966-BE5B-F222A3603CEE}|Struct26\\Struct26.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct26\\struct26\\myhashsetexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1EF37D9B-AC0F-4966-BE5B-F222A3603CEE}|Struct26\\Struct26.csproj|solutionrelative:struct26\\myhashsetexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EF37D9B-AC0F-4966-BE5B-F222A3603CEE}|Struct26\\Struct26.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct26\\struct26\\mylinkedlistnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EF37D9B-AC0F-4966-BE5B-F222A3603CEE}|Struct26\\Struct26.csproj|solutionrelative:struct26\\mylinkedlistnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EF37D9B-AC0F-4966-BE5B-F222A3603CEE}|Struct26\\Struct26.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct26\\struct26\\mylinkedlistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1EF37D9B-AC0F-4966-BE5B-F222A3603CEE}|Struct26\\Struct26.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct26\\struct26\\mylinkedlistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1EF37D9B-AC0F-4966-BE5B-F222A3603CEE}|Struct26\\Struct26.csproj|solutionrelative:struct26\\mylinkedlistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EF37D9B-AC0F-4966-BE5B-F222A3603CEE}|Struct26\\Struct26.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct26\\struct26\\mylinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EF37D9B-AC0F-4966-BE5B-F222A3603CEE}|Struct26\\Struct26.csproj|solutionrelative:struct26\\mylinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct26\\Struct26\\Program.cs",
               "RelativeDocumentMoniker": "Struct26\\Program.cs",
@@ -51,21 +51,25 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MyHashSet.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct26\\Struct26\\MyHashSet.cs",
               "RelativeDocumentMoniker": "Struct26\\MyHashSet.cs",
               "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct26\\Struct26\\MyHashSet.cs",
               "RelativeToolTip": "Struct26\\MyHashSet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-04T17:36:37.958Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MyHashSetException.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct26\\Struct26\\MyHashSetException.cs",
               "RelativeDocumentMoniker": "Struct26\\MyHashSetException.cs",
@@ -73,25 +77,24 @@
               "RelativeToolTip": "Struct26\\MyHashSetException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T17:36:54.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-04T17:36:54.716Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MyLinkedListNode.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct26\\Struct26\\MyLinkedListNode.cs",
               "RelativeDocumentMoniker": "Struct26\\MyLinkedListNode.cs",
               "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct26\\Struct26\\MyLinkedListNode.cs",
               "RelativeToolTip": "Struct26\\MyLinkedListNode.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-07T15:10:35.843Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MyLinkedListException.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct26\\Struct26\\MyLinkedListException.cs",
               "RelativeDocumentMoniker": "Struct26\\MyLinkedListException.cs",
@@ -99,25 +102,20 @@
               "RelativeToolTip": "Struct26\\MyLinkedListException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T15:10:31.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-07T15:10:31.619Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "MyLinkedList.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct26\\Struct26\\MyLinkedList.cs",
               "RelativeDocumentMoniker": "Struct26\\MyLinkedList.cs",
-              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct26\\Struct26\\MyLinkedList.cs",
-              "RelativeToolTip": "Struct26\\MyLinkedList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct26\\Struct26\\MyLinkedList.cs*",
+              "RelativeToolTip": "Struct26\\MyLinkedList.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-07T15:10:28.361Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

@@ -7,7 +7,7 @@ using static System.Math;
 
 namespace Struct22
 {
-    class HashMapComparer<T> : IComparer<T>
+    public class HashMapComparer<T> : IComparer<T>
     {
         public int Compare(T a, T b)
         {
@@ -15,7 +15,7 @@ namespace Struct22
         }
     }
 
-    class MyHashMap<T>
+    public class MyHashMap<T>
     {
         private MyLinkedList<T[]>[] table = new MyLinkedList<T[]>[0];
         private int size = 0;
@@ -107,20 +107,21 @@ namespace Struct22
             return false;
         }
 
-        public void EntrySet()
+        public MyLinkedList<T[]> EntrySet()
         {
+            MyLinkedList<T[]> entrySetList = new MyLinkedList<T[]>();
             for (int i = 0; i < table.Length; ++i)
             {
                 T[][] entrySet = table[i].ToArray();
                 foreach (T[] node in entrySet)
                 {
-                    Console.Write($"<{node[0]}, {node[1]}> ");
+                    entrySetList.AddLast(node);
                 }
             }
-            Console.WriteLine();
+            return entrySetList;
         }
 
-        public T Get(object key)
+        public T Get(T key)
         {
             string searchKey = key.ToString();
             long hashKey = Hash(searchKey);
@@ -143,17 +144,18 @@ namespace Struct22
             return size == 0;
         }
 
-        public void KeySet()
+        public MyLinkedList<T> KeySet()
         {
+            MyLinkedList<T> keySet = new MyLinkedList<T>();
             for (int i = 0; i < table.Length; ++i)
             {
                 T[][] hashKeys = table[i].ToArray();
                 foreach (T[] node in hashKeys)
                 {
-                    Console.Write($"{node[0]} ");
+                    keySet.AddLast(node[0]);
                 }
             }
-            Console.WriteLine();
+            return keySet;
         }
 
         public void Put(object key, object value)

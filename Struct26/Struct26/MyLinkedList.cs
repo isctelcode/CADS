@@ -10,7 +10,7 @@ using System.Xml.Linq;
 
 namespace Struct26
 {
-    class LinkedListComparer<T> : IComparer<T>
+    public class LinkedListComparer<T> : IComparer<T>
     {
         public int Compare(T a, T b)
         {
@@ -18,7 +18,7 @@ namespace Struct26
         }
     }
 
-    class MyLinkedList<T>
+    public class MyLinkedList<T>
     {
         private MyLinkedListNode<T> head = null;
         private MyLinkedListNode<T> tail = null;

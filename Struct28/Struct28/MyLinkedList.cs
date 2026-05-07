@@ -10,7 +10,7 @@ using System.Xml.Linq;
 
 namespace Struct28
 {
-    class LinkedListComparer<T> : IComparer<T>
+    public class LinkedListComparer<T> : IComparer<T>
     {
         public int Compare(T a, T b)
         {
@@ -18,7 +18,7 @@ namespace Struct28
         }
     }
 
-    class MyLinkedList<T>
+    public class MyLinkedList<T>
     {
         private MyLinkedListNode<T> head = null;
         private MyLinkedListNode<T> tail = null;
@@ -521,7 +521,7 @@ namespace Struct28
             }
             if (fromIndex > toIndex)
             {
-                throw new InvalidIntervalArgumentException();
+                throw new InvalidIntervalArgumentLinkedListException();
             }
             if (fromIndex < 0 || fromIndex >= size)
             {

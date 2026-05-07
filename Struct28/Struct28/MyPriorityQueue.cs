@@ -9,7 +9,7 @@ using System.Xml.Linq;
 
 namespace Struct28
 {
-    class PriorityQueueComparer<T> : IComparer<T>
+    public class PriorityQueueComparer<T> : IComparer<T>
     {
         public int Compare(T a, T b)
         {
@@ -17,7 +17,7 @@ namespace Struct28
         }
     }
 
-    class MyPriorityQueue<T>
+    public class MyPriorityQueue<T>
     {
         private T[] priorityQueue = new T[11];
         private int size = 0;

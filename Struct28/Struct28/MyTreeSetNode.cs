@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Struct28
 {
-    class MyTreeSetNode<T>
+    public class MyTreeSetNode<T>
     {
         private Tuple<T, bool> value;
         private MyTreeSetNode<T> left;

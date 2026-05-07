@@ -1,0 +1,8 @@
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct29\Struct29\obj\Debug\Struct29.csproj.AssemblyReference.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct29\Struct29\obj\Debug\Struct29.csproj.CoreCompileInputs.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct29\Struct29\bin\Debug\Struct29.exe.config
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct29\Struct29\bin\Debug\Struct29.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct29\Struct29\bin\Debug\Struct29.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct29\Struct29\obj\Debug\Struct29.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct29\Struct29\obj\Debug\Struct29.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct29\Struct29\obj\Debug\Struct29.exe.config

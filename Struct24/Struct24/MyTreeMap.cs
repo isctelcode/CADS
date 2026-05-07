@@ -9,14 +9,14 @@ using System.Xml.Linq;
 
 namespace Struct24
 {
-    class TreeMapComparer<T> : IComparer<T>
+    public class TreeMapComparer<T> : IComparer<T>
     {
         public int Compare(T a, T b)
         {
             return Comparer<T>.Default.Compare(a, b);
         }
     }
-    class MyTreeMap<T>
+    public class MyTreeMap<T>
     {
         private MyTreeMapNode<T> root = null;
         private int size = 0;
@@ -73,12 +73,12 @@ namespace Struct24
 
         private void SwapValues(MyTreeMapNode<T> x1, MyTreeMapNode<T> x2)
         {
-            Tuple<int, T> tmp = x1.Value;
+            Tuple<T, T> tmp = x1.Value;
             x1.Value = x2.Value;
             x2.Value = tmp;
         }
 
-        private void FixRedRed (MyTreeMapNode<T> x)
+        private void FixRedRed(MyTreeMapNode<T> x)
         {
             if (x == root)
             {
@@ -309,12 +309,12 @@ namespace Struct24
             }
         }
 
-        private MyTreeMapNode<T> Search(int key)
+        private MyTreeMapNode<T> Search(T key)
         {
             MyTreeMapNode<T> tmp = root;
             while (tmp != null)
             {
-                if (key < tmp.Value.Item1)
+                if (comparer.Compare(key, tmp.Value.Item1) < 0)
                 {
                     if (tmp.Left == null)
                     {
@@ -325,7 +325,7 @@ namespace Struct24
                         tmp = tmp.Left;
                     }
                 }
-                else if (key == tmp.Value.Item1)
+                else if (comparer.Compare(key, tmp.Value.Item1) == 0)
                 {
                     break;
                 }
@@ -344,12 +344,12 @@ namespace Struct24
             return tmp;
         }
 
-        public bool ContainsKey(int key)
+        public bool ContainsKey(T key)
         {
             MyTreeMapNode<T> tmp = root;
             while (tmp != null)
             {
-                if (key < tmp.Value.Item1)
+                if (comparer.Compare(key, tmp.Value.Item1) < 0)
                 {
                     if (tmp.Left == null)
                     {
@@ -360,7 +360,7 @@ namespace Struct24
                         tmp = tmp.Left;
                     }
                 }
-                else if (key == tmp.Value.Item1)
+                else if (comparer.Compare(key, tmp.Value.Item1) == 0)
                 {
                     return true;
                 }
@@ -373,18 +373,18 @@ namespace Struct24
                     else
                     {
                         tmp = tmp.Right;
-                    }    
+                    }
                 }
             }
             return false;
         }
 
-        public T Get(int key)
+        public T Get(T key)
         {
             MyTreeMapNode<T> tmp = root;
             while (tmp != null)
             {
-                if (key < tmp.Value.Item1)
+                if (comparer.Compare(key, tmp.Value.Item1) < 0)
                 {
                     if (tmp.Left == null)
                     {
@@ -395,7 +395,7 @@ namespace Struct24
                         tmp = tmp.Left;
                     }
                 }
-                else if (key == tmp.Value.Item1)
+                else if (comparer.Compare(key, tmp.Value.Item1) == 0)
                 {
                     return tmp.Value.Item2;
                 }
@@ -423,39 +423,52 @@ namespace Struct24
             return ContainsValue(x.Left, value) || comparer.Compare(x.Value.Item2, value) == 0 || ContainsValue(x.Right, value);
         }
 
-        private void EntrySet(MyTreeMapNode<T> x)
+        public bool ContainsValue(T value)
+        {
+            return ContainsValue(root, value);
+        }
+
+        public MyLinkedList<T[]> entrySet;
+
+        private void EntrySetSearch(MyTreeMapNode<T> x)
         {
             if (x == null)
             {
                 return;
             }
-            EntrySet(x.Left);
-            Console.WriteLine(x.Value.Item1 + " " + x.Value.Item2);
-            EntrySet(x.Right);
+            EntrySetSearch(x.Left);
+            entrySet.AddLast(new T[] { x.Value.Item1, x.Value.Item2 });
+            EntrySetSearch(x.Right);
         }
 
-        public void EntrySet()
+        public MyLinkedList<T[]> EntrySet()
         {
-            EntrySet(root);
+            entrySet = new MyLinkedList<T[]>();
+            EntrySetSearch(root);
+            return entrySet;
         }
 
-        private void KeySet(MyTreeMapNode<T> x)
+        public MyLinkedList<T> keySet;
+
+        private void KeySetSearch(MyTreeMapNode<T> x)
         {
             if (x == null)
             {
                 return;
             }
-            KeySet(x.Left);
-            Console.Write(x.Value.Item1 + " ");
-            KeySet(x.Right);
+            KeySetSearch(x.Left);
+            keySet.AddLast(x.Value.Item1);
+            KeySetSearch(x.Right);
         }
 
-        public void KeySet()
+        public MyLinkedList<T> KeySet()
         {
-            KeySet(root);
+            keySet = new MyLinkedList<T>();
+            KeySetSearch(root);
+            return keySet;
         }
 
-        public void Put(int key, T value)
+        public void Put(T key, T value)
         {
             try
             {
@@ -469,7 +482,7 @@ namespace Struct24
                 {
                     MyTreeMapNode<T> tmp = Search(key);
 
-                    if (tmp.Value.Item1 == key)
+                    if (comparer.Compare(key, tmp.Value.Item1) == 0)
                     {
                         return;
                     }
@@ -477,7 +490,7 @@ namespace Struct24
 
                     newNode.Parent = tmp;
 
-                    if (key < tmp.Value.Item1)
+                    if (comparer.Compare(key, tmp.Value.Item1) < 0)
                     {
                         tmp.Left = newNode;
                     }
@@ -501,7 +514,7 @@ namespace Struct24
             return root == null;
         }
 
-        public void Remove(int key)
+        public void Remove(T key)
         {
             if (root == null)
             {
@@ -510,7 +523,7 @@ namespace Struct24
 
             MyTreeMapNode<T> v = Search(key);
 
-            if (v.Value.Item1 != key)
+            if (comparer.Compare(key, v.Value.Item1) != 0)
             {
                 return;
             }
@@ -524,7 +537,7 @@ namespace Struct24
             return size;
         }
 
-        private int FirstKey(MyTreeMapNode<T> x)
+        private T FirstKey(MyTreeMapNode<T> x)
         {
             if (x.Left == null)
             {
@@ -533,12 +546,12 @@ namespace Struct24
             return FirstKey(x.Left);
         }
 
-        public int FirstKey()
+        public T FirstKey()
         {
             return FirstKey(root);
         }
 
-        private int LastKey(MyTreeMapNode<T> x)
+        private T LastKey(MyTreeMapNode<T> x)
         {
             if (x.Right == null)
             {
@@ -547,74 +560,86 @@ namespace Struct24
             return LastKey(x.Right);
         }
 
-        public int LastKey()
+        public T LastKey()
         {
             return LastKey(root);
         }
 
-        private void HeadMap(MyTreeMapNode<T> x, int end)
+        MyLinkedList<T[]> headMap;
+
+        private void HeadMapSeacrh(MyTreeMapNode<T> x, T end)
         {
             if (x == null)
             {
                 return;
             }
-            HeadMap(x.Left, end);
-            if (x.Value.Item1 < end)
+            HeadMapSeacrh(x.Left, end);
+            if (comparer.Compare(x.Value.Item1, end) < 0)
             {
-                Console.WriteLine(x.Value.Item1 + " " + x.Value.Item2);
+                headMap.AddLast(new T[] { x.Value.Item1, x.Value.Item2 });
             }
-            HeadMap(x.Right, end);
+            HeadMapSeacrh(x.Right, end);
         }
 
-        public void HeadMap(int end)
+        public MyLinkedList<T[]> HeadMap(T end)
         {
-            HeadMap(root, end);
+            headMap = new MyLinkedList<T[]>();
+            HeadMapSeacrh(root, end);
+            return headMap;
         }
 
-        private void SubMap(MyTreeMapNode<T> x, int begin, int end)
-        {
-            if (x == null)
-            {
-                return;
-            }
-            SubMap(x.Left, begin, end);
-            if (x.Value.Item1 > begin && x.Value.Item1 < end)
-            {
-                Console.WriteLine(x.Value.Item1 + " " + x.Value.Item2);
-            }
-            SubMap(x.Right, begin, end);
-        }
+        MyLinkedList<T[]> subMap;
 
-        public void SubMap(int begin, int end)
-        {
-            SubMap(root, begin, end);
-        }
-
-        private void TailMap(MyTreeMapNode<T> x, int begin)
+        private void SubMapSearch(MyTreeMapNode<T> x, T begin, T end)
         {
             if (x == null)
             {
                 return;
             }
-            TailMap(x.Left, begin);
-            if (x.Value.Item1 > begin)
+            SubMapSearch(x.Left, begin, end);
+            if (comparer.Compare(x.Value.Item1, begin) > 0 && comparer.Compare(x.Value.Item1, end) < 0)
             {
-                Console.WriteLine(x.Value.Item1 + " " + x.Value.Item2);
+                subMap.AddLast(new T[] { x.Value.Item1, x.Value.Item2 });
             }
-            TailMap(x.Right, begin);
+            SubMapSearch(x.Right, begin, end);
         }
 
-        public void TailMap(int begin)
+        public MyLinkedList<T[]> SubMap(T begin, T end)
         {
-            TailMap(root, begin);
+            subMap = new MyLinkedList<T[]>();
+            SubMapSearch(root, begin, end);
+            return subMap;
         }
-        
-        public Tuple<int, T> LowerEntry(int key)
+
+        MyLinkedList<T[]> tailMap;
+
+        private void TailMapSearch(MyTreeMapNode<T> x, T begin)
+        {
+            if (x == null)
+            {
+                return;
+            }
+            TailMapSearch(x.Left, begin);
+            if (comparer.Compare(x.Value.Item1, begin) > 0)
+            {
+                tailMap.AddLast(new T[] { x.Value.Item1, x.Value.Item2 });
+            }
+            TailMapSearch(x.Right, begin);
+        }
+
+        public MyLinkedList<T[]> TailMap(T begin)
+        {
+            tailMap = new MyLinkedList<T[]>();
+            TailMapSearch(root, begin);
+            return tailMap;
+        }
+
+        public T[] LowerEntry(T key)
         {
             MyTreeMapNode<T> current = root, successor = null;
             while (current != null)
             {
-                if (current.Value.Item1 < key)
+                if (comparer.Compare(current.Value.Item1, key) < 0)
                 {
                     successor = current;
                     current = current.Right;
@@ -626,17 +651,17 @@ namespace Struct24
             }
             if (successor != null)
             {
-                return successor.Value;
+                return new T[] { successor.Value.Item1, successor.Value.Item2 };
             }
-            return new Tuple<int, T>(0, default(T));
+            return new T[] { default(T), default(T) };
         }
 
-        public Tuple<int, T> FloorEntry(int key)
+        public T[] FloorEntry(T key)
         {
             MyTreeMapNode<T> current = root, successor = null;
             while (current != null)
             {
-                if (current.Value.Item1 <= key)
+                if (comparer.Compare(current.Value.Item1, key) <= 0)
                 {
                     successor = current;
                     current = current.Right;
@@ -648,17 +673,17 @@ namespace Struct24
             }
             if (successor != null)
             {
-                return successor.Value;
+                return new T[] { successor.Value.Item1, successor.Value.Item2 };
             }
-            return new Tuple<int, T>(0, default(T));
+            return new T[] { default(T), default(T) };
         }
 
-        public Tuple<int, T> HigherEntry(int key)
+        public T[] HigherEntry(T key)
         {
             MyTreeMapNode<T> current = root, successor = null;
             while (current != null)
             {
-                if (current.Value.Item1 > key)
+                if (comparer.Compare(current.Value.Item1, key) > 0)
                 {
                     successor = current;
                     current = current.Left;
@@ -670,17 +695,17 @@ namespace Struct24
             }
             if (successor != null)
             {
-                return successor.Value;
+                return new T[] { successor.Value.Item1, successor.Value.Item2 };
             }
-            return new Tuple<int, T>(0, default(T));
+            return new T[] { default(T), default(T) };
         }
 
-        public Tuple<int, T> CeilingEntry(int key)
+        public T[] CeilingEntry(T key)
         {
             MyTreeMapNode<T> current = root, successor = null;
             while (current != null)
             {
-                if (current.Value.Item1 >= key)
+                if (comparer.Compare(current.Value.Item1, key) >= 0)
                 {
                     successor = current;
                     current = current.Left;
@@ -692,17 +717,17 @@ namespace Struct24
             }
             if (successor != null)
             {
-                return successor.Value;
+                return new T[] { successor.Value.Item1, successor.Value.Item2 };
             }
-            return new Tuple<int, T>(0, default(T));
+            return new T[] { default(T), default(T) };
         }
 
-        public int LowerKey(int key)
+        public T LowerKey(T key)
         {
             MyTreeMapNode<T> current = root, successor = null;
             while (current != null)
             {
-                if (current.Value.Item1 < key)
+                if (comparer.Compare(current.Value.Item1, key) < 0)
                 {
                     successor = current;
                     current = current.Right;
@@ -716,15 +741,15 @@ namespace Struct24
             {
                 return successor.Value.Item1;
             }
-            return 0;
+            return default(T);
         }
 
-        public int FloorKey(int key)
+        public T FloorKey(T key)
         {
             MyTreeMapNode<T> current = root, successor = null;
             while (current != null)
             {
-                if (current.Value.Item1 <= key)
+                if (comparer.Compare(current.Value.Item1, key) <= 0)
                 {
                     successor = current;
                     current = current.Right;
@@ -738,38 +763,15 @@ namespace Struct24
             {
                 return successor.Value.Item1;
             }
-            return 0;
+            return default(T);
         }
 
-        public int HigherKey(int key)
+        public T HigherKey(T key)
         {
             MyTreeMapNode<T> current = root, successor = null;
             while (current != null)
             {
-                if (current.Value.Item1 > key)
-                {
-                    successor = current;
-                    current = current.Left;
-                }
-                else
-                {
-                    current = current.Right;
-                }
-            }
-            if (successor != null)
-            {
-                return successor.Value.Item1;
-            }
-
-            return 0;
-        }
-
-        public int CeilingKey(int key)
-        {
-            MyTreeMapNode<T> current = root, successor = null;
-            while (current != null)
-            {
-                if (current.Value.Item1 >= key)
+                if (comparer.Compare(current.Value.Item1, key) > 0)
                 {
                     successor = current;
                     current = current.Left;
@@ -784,67 +786,90 @@ namespace Struct24
                 return successor.Value.Item1;
             }
 
-            return 0;
+            return default(T);
         }
 
-        private Tuple<int, T> PollFirstEntry(MyTreeMapNode<T> x)
+        public T CeilingKey(T key)
+        {
+            MyTreeMapNode<T> current = root, successor = null;
+            while (current != null)
+            {
+                if (comparer.Compare(current.Value.Item1, key) >= 0)
+                {
+                    successor = current;
+                    current = current.Left;
+                }
+                else
+                {
+                    current = current.Right;
+                }
+            }
+            if (successor != null)
+            {
+                return successor.Value.Item1;
+            }
+
+            return default(T);
+        }
+
+        private T[] PollFirstEntry(MyTreeMapNode<T> x)
         {
             if (x.Left == null)
             {
-                Tuple<int, T> first = x.Value;
+                T[] first = new T[] { x.Value.Item1, x.Value.Item2 }; ;
                 DeleteNode(x);
                 return first;
             }
             return PollFirstEntry(x.Left);
         }
 
-        public Tuple<int, T> PollFirstEntry()
+        public T[] PollFirstEntry()
         {
             return PollFirstEntry(root);
         }
 
-        private Tuple<int, T> PollLastEntry(MyTreeMapNode<T> x)
+        private T[] PollLastEntry(MyTreeMapNode<T> x)
         {
             if (x.Right == null)
             {
-                Tuple<int, T> first = x.Value;
+                T[] first = new T[] { x.Value.Item1, x.Value.Item2 }; ;
                 DeleteNode(x);
                 return first;
             }
             return PollLastEntry(x.Right);
         }
 
-        public Tuple<int, T> PollLastEntry()
+        public T[] PollLastEntry()
         {
-            return PollLastEntry(root);
+            return new T[] { root.Value.Item1, root.Value.Item2 };
         }
 
-        private Tuple<int, T> FirstEntry(MyTreeMapNode<T> x)
+        private T[] FirstEntry(MyTreeMapNode<T> x)
         {
             if (x.Left == null)
             {
-                Tuple<int, T> first = x.Value;
+                T[] first = new T[] { x.Value.Item1, x.Value.Item2 };
                 return first;
             }
             return FirstEntry(x.Left);
         }
 
-        public Tuple<int, T> FirstEntry()
+        public T[] FirstEntry()
         {
             return FirstEntry(root);
         }
 
-        private Tuple<int, T> LastEntry(MyTreeMapNode<T> x)
+        private T[] LastEntry(MyTreeMapNode<T> x)
         {
             if (x.Right == null)
             {
-                Tuple<int, T> first = x.Value;
+                T[] first = new T[] { x.Value.Item1, x.Value.Item2 };
                 return first;
             }
             return LastEntry(x.Right);
         }
 
-        public Tuple<int, T> LastEntry()
+        public T[] LastEntry()
         {
             return LastEntry(root);
         }

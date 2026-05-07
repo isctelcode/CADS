@@ -21,7 +21,7 @@ namespace Struct13
         }
     }
 
-    class MyVector<T>
+    public class MyVector<T>
     {
         private T[] elementData = new T[1];
         private int size = 0;

@@ -11,7 +11,7 @@ using System.Xml.Linq;
 
 namespace Struct3
 {
-    class LinkedListComparer<T> : IComparer<T>
+    public class LinkedListComparer<T> : IComparer<T>
     {
         public int Compare(T a, T b)
         {
@@ -19,7 +19,7 @@ namespace Struct3
         }
     }
 
-    class MyLinkedList<T>
+    public class MyLinkedList<T>
     {
         private MyLinkedListNode<T> head = null;
         private MyLinkedListNode<T> tail = null;

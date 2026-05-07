@@ -12,7 +12,7 @@ using System.Xml.Linq;
 
 namespace Struct28
 {
-    class VectorComparer<T> : IComparer<T>
+    public class VectorComparer<T> : IComparer<T>
     {
         public int Compare(T a, T b)
         {
@@ -20,7 +20,7 @@ namespace Struct28
         }
     }
 
-    class MyVector<T>
+    public class MyVector<T>
     {
         private T[] elementData = new T[1];
         private int size = 0;

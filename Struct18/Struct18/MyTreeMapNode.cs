@@ -8,22 +8,22 @@ namespace Struct18
 {
     class MyTreeMapNode<T>
     {
-        private Tuple<int, T> value;
+        private Tuple<T, T> value;
         private MyTreeMapNode<T> left;
         private MyTreeMapNode<T> right;
         private MyTreeMapNode<T> parent;
         private bool isRed;
 
-        public MyTreeMapNode(int value1, T value2)
+        public MyTreeMapNode(T value1, T value2)
         {
-            value = new Tuple<int, T>(value1, value2);
+            value = new Tuple<T, T>(value1, value2);
             left = null;
             right = null;
             parent = null;
             isRed = true;
         }
 
-        public Tuple<int, T> Value { get { return value; } set { this.value = value; } }
+        public Tuple<T, T> Value { get { return value; } set { this.value = value; } }
         public MyTreeMapNode<T> Left { get { return left; } set { left = value; } }
         public MyTreeMapNode<T> Right { get { return right; } set { right = value; } }
         public MyTreeMapNode<T> Parent { get { return parent; } set { parent = value; } }

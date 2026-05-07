@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Struct15
 {
-    class ArrayDequeComparer<T> : IComparer<T>
+    public class ArrayDequeComparer<T> : IComparer<T>
     {
         public int Compare(T a, T b)
         {
@@ -16,7 +16,7 @@ namespace Struct15
         }
     }
 
-    class MyArrayDeque<T>
+    public class MyArrayDeque<T>
     {
         private T[] elementData = new T[0];
         private int size = 0;

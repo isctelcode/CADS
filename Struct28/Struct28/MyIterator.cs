@@ -8,7 +8,7 @@ namespace Struct28
 {
     namespace Collections1
     {
-        interface MyIterator<T>
+        public interface MyIterator<T>
         {
             bool HasNext();
             T Next();

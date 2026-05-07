@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Struct16
 {
-    class MyLinkedListNode<T>
+    public class MyLinkedListNode<T>
     {
         private T value;
         private MyLinkedListNode<T> next;

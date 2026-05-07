@@ -1,0 +1,489 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Linq;
+using System.Reflection;
+using System.Runtime.InteropServices;
+using System.Security.Cryptography.X509Certificates;
+using System.Text;
+using System.Threading.Tasks;
+using System.Xml.Linq;
+
+namespace Struct29
+{
+    public class ArrayListComparer<T> : IComparer<T>
+    {
+        public int Compare(T a, T b)
+        {
+            return Comparer<T>.Default.Compare(a, b);
+        }
+    }
+
+    public class MyArrayList<T> : MyList<T>
+    {
+        private T[] elementData = new T[1];
+        private int size = 0;
+        private int capacity = 1;
+        private ArrayListComparer<T> comparer = new ArrayListComparer<T>();
+
+        public class MyItr<T> : Collections2.MyIterator<T>
+        {
+            T[] arrayList;
+
+            int cursor = -1;
+
+            public MyItr(T[] elements)
+            {
+                arrayList = elements;
+            }
+
+            public bool HasNext()
+            {
+                try
+                {
+                    T next = arrayList[cursor + 1];
+                    return true;
+                }
+                catch
+                {
+                    return false;
+                }
+            }
+
+            public bool HasPrevious()
+            {
+                try
+                {
+                    T next = arrayList[cursor - 1];
+                    return true;
+                }
+                catch
+                {
+                    return false;
+                }
+            }
+
+            public T Next()
+            {
+                try
+                {
+                    ++cursor;
+                    return arrayList[cursor];
+                }
+                catch
+                {
+                    throw new InvalidOperationException();
+                }
+            }
+
+            public T Previous()
+            {
+                try
+                {
+                    --cursor;
+                    return arrayList[cursor];
+                }
+                catch
+                {
+                    throw new InvalidOperationException();
+                }
+            }
+
+            public int NextIndex()
+            {
+                if (cursor + 1 >= arrayList.Length)
+                {
+                    return -1;
+                }
+                return cursor + 1;
+            }
+
+            public int PreviousIndex()
+            {
+                if (cursor - 1 < 0)
+                {
+                    return -1;
+                }
+                return cursor - 1;
+            }
+
+            public void Reset()
+            {
+                cursor = -1;
+            }
+        }
+
+        public MyItr<T> ListIterator()
+        {
+            return new MyItr<T>(ToArray());
+        }
+
+        public MyItr<T> ListIterator(int index)
+        {
+            T[] arrayList = ToArray();
+            if (index < 0 || index >= arrayList.Length)
+            {
+                throw new IndexOutOfRangeArrayListException();
+            }
+
+            T[] iterList = new T[arrayList.Length - index];
+            for (int i = index, j = 0; i < arrayList.Length; ++i, ++j)
+            {
+                iterList[j] = arrayList[i];
+            }
+            return new MyItr<T>(iterList);
+        }
+
+        public MyArrayList()
+        {
+            size = 0;
+            capacity = 1;
+            elementData = new T[capacity];
+        }
+
+        public MyArrayList(T[] array)
+        {
+            size = array.Length;
+            capacity = size;
+            elementData = new T[capacity];
+            for (int i = 0; i < size; ++i)
+            {
+                elementData[i] = array[i];
+            }
+        }
+
+        public MyArrayList(int capacity)
+        {
+            size = 0;
+            this.capacity = capacity;
+            elementData = new T[capacity];
+        }
+
+        public void Add(T element)
+        {
+            if (size == capacity)
+            {
+                try
+                {
+                    capacity = Convert.ToInt32(capacity * 1.5) + 1;
+                    T[] newElementData = new T[capacity];
+                    for (int i = 0; i < size; ++i)
+                    {
+                        newElementData[i] = elementData[i];
+                    }
+                    elementData = newElementData;
+                }
+                catch (OutOfMemoryArrayListException exception)
+                {
+                    Console.WriteLine(exception);
+                    return;
+                }
+            }
+            elementData[size] = element;
+            ++size;
+        }
+
+        public void AddAll(T[] array)
+        {
+            for (int i = 0; i < array.Length; ++i)
+            {
+                Add(array[i]);
+            }
+        }
+
+        public void Clear()
+        {
+            size = 0;
+            capacity = 1;
+            elementData = new T[capacity];
+        }
+
+        public bool Contains(T element)
+        {
+            if (IsEmpty())
+            {
+                throw new NullArrayListException();
+            }
+            for (int i = 0; i < size; ++i)
+            {
+                if (comparer.Compare(elementData[i], element) == 0)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        public bool ContainsAll(T[] elements)
+        {
+            if (IsEmpty())
+            {
+                throw new NullArrayListException();
+            }
+            bool[] contains = new bool[elements.Length];
+            for (int i = 0; i < contains.Length; ++i)
+            {
+                contains[i] = Contains(elements[i]);
+            }
+            for (int i = 0; i < contains.Length; ++i)
+            {
+                if (contains[i] == false)
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        public int Size()
+        {
+            return size;
+        }
+
+        public bool IsEmpty()
+        {
+            return size == 0;
+        }
+
+        public void Remove(T element)
+        {
+            if (IsEmpty())
+            {
+                throw new NullArrayListException();
+            }
+            for (int i = 0; i < size; ++i)
+            {
+                if (comparer.Compare(elementData[i], element) == 0)
+                {
+                    for (int j = i; j < size - 1; ++j)
+                    {
+                        elementData[j] = elementData[j + 1];
+                    }
+                    --size;
+                    return;
+                }
+            }
+        }
+
+        public void RemoveAll(T[] elements)
+        {
+            if (IsEmpty())
+            {
+                throw new NullArrayListException();
+            }
+            for (int i = 0; i < elements.Length; ++i)
+            {
+                Remove(elements[i]);
+            }
+        }
+
+        public void RetainAll(T[] elements)
+        {
+            if (IsEmpty())
+            {
+                throw new NullArrayListException();
+            }
+            int wrongElementsCount = 0;
+            for (int i = 0; i < size; ++i)
+            {
+                for (int j = 0; j < elements.Length; ++j)
+                {
+                    if (comparer.Compare(elementData[i], elements[j]) != 0)
+                    {
+                        ++wrongElementsCount;
+                    }
+                }
+            }
+            T[] wrongElements = new T[wrongElementsCount];
+            wrongElementsCount = 0;
+            for (int i = 0; i < size; ++i)
+            {
+                for (int j = 0; j < elements.Length; ++j)
+                {
+                    if (comparer.Compare(elementData[i], elements[j]) != 0)
+                    {
+                        wrongElements[wrongElementsCount] = elementData[i];
+                        ++wrongElementsCount;
+                    }
+                }
+            }
+            RemoveAll(wrongElements);
+        }
+
+        public T[] ToArray()
+        {
+            T[] arrayListToArray = new T[size];
+            for (int i = 0; i < size; ++i)
+            {
+                arrayListToArray[i] = elementData[i];
+            }
+            return arrayListToArray;
+        }
+
+        public void Add(int index, T element)
+        {
+            if (index < 0 || index > size)
+            {
+                throw new IndexOutOfRangeArrayListException();
+            }
+            if (size == capacity)
+            {
+                try
+                {
+                    capacity = Convert.ToInt32(capacity * 1.5) + 1;
+                    T[] newElementData = new T[capacity];
+                    for (int i = 0; i < size; ++i)
+                    {
+                        newElementData[i] = elementData[i];
+                    }
+                    elementData = newElementData;
+                }
+                catch (OutOfMemoryArrayListException exception)
+                {
+                    Console.WriteLine(exception);
+                    return;
+                }
+            }
+
+            for (int i = size; i > index; --i)
+            {
+                elementData[i] = elementData[i - 1];
+            }
+            elementData[index] = element;
+            ++size;
+        }
+
+        public void AddAll(int index, T[] array)
+        {
+            if (index < 0 || index > size)
+            {
+                throw new IndexOutOfRangeArrayListException();
+            }
+            for (int i = 0; i < array.Length; ++i)
+            {
+                Add(index + i, array[i]);
+            }
+        }
+
+        public T Get(int index)
+        {
+            if (IsEmpty())
+            {
+                throw new NullArrayListException();
+            }
+            if (index < 0 || index >= size)
+            {
+                throw new IndexOutOfRangeArrayListException();
+            }
+            return elementData[index];
+        }
+
+        public int IndexOf(T element)
+        {
+            if (IsEmpty())
+            {
+                throw new NullArrayListException();
+            }
+            for (int i = 0; i < size; ++i)
+            {
+                if (comparer.Compare(elementData[i], element) == 0)
+                {
+                    return i;
+                }
+            }
+            return -1;
+        }
+
+        public int LastIndexOf(T element)
+        {
+            if (IsEmpty())
+            {
+                throw new NullArrayListException();
+            }
+            for (int i = size - 1; i >= 0; --i)
+            {
+                if (comparer.Compare(elementData[i], element) == 0)
+                {
+                    return i;
+                }
+            }
+            return -1;
+        }
+
+        public T RemoveReturn(int index)
+        {
+            if (IsEmpty())
+            {
+                throw new NullArrayListException();
+            }
+            if (index < 0 || index >= size)
+            {
+                throw new IndexOutOfRangeArrayListException();
+            }
+            T removed = elementData[index];
+            for (int i = index; i < size - 1; ++i)
+            {
+                elementData[i] = elementData[i + 1];
+            }
+            --size;
+            return removed;
+        }
+
+        public void RemoveElementAt(int index)
+        {
+            if (IsEmpty())
+            {
+                throw new NullArrayListException();
+            }
+            if (index < 0 || index >= size)
+            {
+                throw new IndexOutOfRangeArrayListException();
+            }
+            for (int i = index; i < size - 1; ++i)
+            {
+                elementData[i] = elementData[i + 1];
+            }
+            --size;
+        }
+
+        public void Set(int index, T element)
+        {
+            if (IsEmpty())
+            {
+                throw new NullArrayListException();
+            }
+            if (index < 0 || index >= size)
+            {
+                throw new IndexOutOfRangeArrayListException();
+            }
+            elementData[index] = element;
+        }
+
+        public T[] SubList(int fromIndex, int toIndex)
+        {
+            if (IsEmpty())
+            {
+                throw new NullArrayListException();
+            }
+            if (fromIndex > toIndex)
+            {
+                throw new InvalidIntervalArgumentArrayListException();
+            }
+            if (fromIndex < 0 || fromIndex >= size)
+            {
+                throw new IndexOutOfRangeArrayListException();
+            }
+            if (toIndex < 0 || toIndex > size)
+            {
+                throw new IndexOutOfRangeArrayListException();
+            }
+            T[] subList = new T[toIndex - fromIndex];
+            for (int i = fromIndex; i < toIndex; ++i)
+            {
+                subList[i] = elementData[i];
+            }
+            return subList;
+        }
+    }
+}

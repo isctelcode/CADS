@@ -12,7 +12,7 @@ using System.Xml.Linq;
 
 namespace Struct28
 {
-    class ArrayListComparer<T> : IComparer<T>
+    public class ArrayListComparer<T> : IComparer<T>
     {
         public int Compare(T a, T b)
         {
@@ -20,7 +20,7 @@ namespace Struct28
         }
     }
 
-    class MyArrayList<T>
+    public class MyArrayList<T>
     {
         private T[] elementData = new T[1];
         private int size = 0;
@@ -451,7 +451,7 @@ namespace Struct28
             }
             if (fromIndex > toIndex)
             {
-                throw new InvalidIntervalArgumentException();
+                throw new InvalidIntervalArgumentArrayListException();
             }
             if (fromIndex < 0 || fromIndex >= size)
             {

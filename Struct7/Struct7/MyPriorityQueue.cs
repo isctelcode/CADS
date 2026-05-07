@@ -9,7 +9,7 @@ using System.Xml.Linq;
 
 namespace Struct7
 {
-    class PriorityQueueComparer<T> : IComparer<T>
+    public class PriorityQueueComparer<T> : IComparer<T>
     {
         public int Compare(T a, T b)
         {
@@ -17,17 +17,12 @@ namespace Struct7
         }
     }
 
-    class MyPriorityQueue<T>
+    public class MyPriorityQueue<T>
     {
         private T[] priorityQueue = new T[11];
         private int size = 0;
         private int capacity = 11;
         private PriorityQueueComparer<T> comparer = new PriorityQueueComparer<T>();
-
-        public T[] Queue { get { return priorityQueue; } }
-        public int Size { get { return size; } }
-        public int Capacity { get { return capacity; } }
-        public PriorityQueueComparer<T> Comparer { get { return  comparer; } }
 
         public MyPriorityQueue()
         {
@@ -104,10 +99,10 @@ namespace Struct7
 
         public MyPriorityQueue(MyPriorityQueue<T> anotherPriorityQueue)
         {
-            size = anotherPriorityQueue.Size;
-            capacity = anotherPriorityQueue.Capacity;
-            T[] priorityQueue = anotherPriorityQueue.Queue;
-            comparer = anotherPriorityQueue.Comparer;
+            size = anotherPriorityQueue.size;
+            capacity = anotherPriorityQueue.capacity;
+            T[] priorityQueue = anotherPriorityQueue.priorityQueue;
+            comparer = anotherPriorityQueue.comparer;
         }
 
         public void SiftUpMax(int index)
