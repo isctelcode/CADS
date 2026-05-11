@@ -1,0 +1,8 @@
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct30\Struct30\bin\Debug\Struct30.exe.config
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct30\Struct30\bin\Debug\Struct30.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct30\Struct30\bin\Debug\Struct30.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct30\Struct30\obj\Debug\Struct30.csproj.AssemblyReference.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct30\Struct30\obj\Debug\Struct30.csproj.CoreCompileInputs.cache
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct30\Struct30\obj\Debug\Struct30.exe
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct30\Struct30\obj\Debug\Struct30.pdb
+C:\Users\stepu\Desktop\Лабы КАиСД\Struct30\Struct30\obj\Debug\Struct30.exe.config
