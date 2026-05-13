@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct28\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{294CD686-0332-446C-8474-CF0BA0C13CAB}|Struct28\\Struct28.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct28\\struct28\\myhashset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{294CD686-0332-446C-8474-CF0BA0C13CAB}|Struct28\\Struct28.csproj|solutionrelative:struct28\\myhashset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{294CD686-0332-446C-8474-CF0BA0C13CAB}|Struct28\\Struct28.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct28\\struct28\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{294CD686-0332-446C-8474-CF0BA0C13CAB}|Struct28\\Struct28.csproj|solutionrelative:struct28\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{294CD686-0332-446C-8474-CF0BA0C13CAB}|Struct28\\Struct28.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct28\\struct28\\myvector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{294CD686-0332-446C-8474-CF0BA0C13CAB}|Struct28\\Struct28.csproj|solutionrelative:struct28\\myvector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{294CD686-0332-446C-8474-CF0BA0C13CAB}|Struct28\\Struct28.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct28\\struct28\\myiterator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{294CD686-0332-446C-8474-CF0BA0C13CAB}|Struct28\\Struct28.csproj|solutionrelative:struct28\\myiterator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{294CD686-0332-446C-8474-CF0BA0C13CAB}|Struct28\\Struct28.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct28\\struct28\\mylinkedlistnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{294CD686-0332-446C-8474-CF0BA0C13CAB}|Struct28\\Struct28.csproj|solutionrelative:struct28\\mylinkedlistnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{294CD686-0332-446C-8474-CF0BA0C13CAB}|Struct28\\Struct28.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct28\\struct28\\mylinkedlistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{294CD686-0332-446C-8474-CF0BA0C13CAB}|Struct28\\Struct28.csproj|solutionrelative:struct28\\mylinkedlistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{294CD686-0332-446C-8474-CF0BA0C13CAB}|Struct28\\Struct28.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct28\\struct28\\myvector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{294CD686-0332-446C-8474-CF0BA0C13CAB}|Struct28\\Struct28.csproj|solutionrelative:struct28\\myvector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{294CD686-0332-446C-8474-CF0BA0C13CAB}|Struct28\\Struct28.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct28\\struct28\\myhashset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{294CD686-0332-446C-8474-CF0BA0C13CAB}|Struct28\\Struct28.csproj|solutionrelative:struct28\\myhashset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{294CD686-0332-446C-8474-CF0BA0C13CAB}|Struct28\\Struct28.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct28\\struct28\\mytreesetnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,16 +39,8 @@
       "RelativeMoniker": "D:0:0:{294CD686-0332-446C-8474-CF0BA0C13CAB}|Struct28\\Struct28.csproj|solutionrelative:struct28\\mypriorityqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{294CD686-0332-446C-8474-CF0BA0C13CAB}|Struct28\\Struct28.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct28\\struct28\\mylinkedlistnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{294CD686-0332-446C-8474-CF0BA0C13CAB}|Struct28\\Struct28.csproj|solutionrelative:struct28\\mylinkedlistnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{294CD686-0332-446C-8474-CF0BA0C13CAB}|Struct28\\Struct28.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct28\\struct28\\mylinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{294CD686-0332-446C-8474-CF0BA0C13CAB}|Struct28\\Struct28.csproj|solutionrelative:struct28\\mylinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{294CD686-0332-446C-8474-CF0BA0C13CAB}|Struct28\\Struct28.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct28\\struct28\\myiterator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{294CD686-0332-446C-8474-CF0BA0C13CAB}|Struct28\\Struct28.csproj|solutionrelative:struct28\\myiterator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{294CD686-0332-446C-8474-CF0BA0C13CAB}|Struct28\\Struct28.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct28\\struct28\\myarraylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{294CD686-0332-446C-8474-CF0BA0C13CAB}|Struct28\\Struct28.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct28\\struct28\\myarraydeque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{294CD686-0332-446C-8474-CF0BA0C13CAB}|Struct28\\Struct28.csproj|solutionrelative:struct28\\myarraydeque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{294CD686-0332-446C-8474-CF0BA0C13CAB}|Struct28\\Struct28.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct28\\struct28\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{294CD686-0332-446C-8474-CF0BA0C13CAB}|Struct28\\Struct28.csproj|solutionrelative:struct28\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,20 +58,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct28\\Struct28\\Program.cs",
               "RelativeDocumentMoniker": "Struct28\\Program.cs",
               "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct28\\Struct28\\Program.cs",
               "RelativeToolTip": "Struct28\\Program.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAowF4AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAowF4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-07T10:13:46.751Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -79,20 +80,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MyVector.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct28\\Struct28\\MyVector.cs",
               "RelativeDocumentMoniker": "Struct28\\MyVector.cs",
               "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct28\\Struct28\\MyVector.cs",
               "RelativeToolTip": "Struct28\\MyVector.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAADwvyMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-07T19:50:35.782Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "MyTreeSetNode.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct28\\Struct28\\MyTreeSetNode.cs",
               "RelativeDocumentMoniker": "Struct28\\MyTreeSetNode.cs",
@@ -104,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "MyTreeSet.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct28\\Struct28\\MyTreeSet.cs",
               "RelativeDocumentMoniker": "Struct28\\MyTreeSet.cs",
@@ -116,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "MyPriorityQueue.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct28\\Struct28\\MyPriorityQueue.cs",
               "RelativeDocumentMoniker": "Struct28\\MyPriorityQueue.cs",
@@ -128,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "MyLinkedListNode.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct28\\Struct28\\MyLinkedListNode.cs",
               "RelativeDocumentMoniker": "Struct28\\MyLinkedListNode.cs",
@@ -136,23 +137,25 @@
               "RelativeToolTip": "Struct28\\MyLinkedListNode.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T19:50:17.8Z"
+              "WhenOpened": "2026-05-07T19:50:17.8Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "MyIterator.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct28\\Struct28\\MyIterator.cs",
               "RelativeDocumentMoniker": "Struct28\\MyIterator.cs",
               "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct28\\Struct28\\MyIterator.cs",
               "RelativeToolTip": "Struct28\\MyIterator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T19:50:07.321Z"
+              "WhenOpened": "2026-05-07T19:50:07.321Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "MyArrayList.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct28\\Struct28\\MyArrayList.cs",
               "RelativeDocumentMoniker": "Struct28\\MyArrayList.cs",
@@ -164,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "MyArrayDeque.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct28\\Struct28\\MyArrayDeque.cs",
               "RelativeDocumentMoniker": "Struct28\\MyArrayDeque.cs",
@@ -176,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MyLinkedListException.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct28\\Struct28\\MyLinkedListException.cs",
               "RelativeDocumentMoniker": "Struct28\\MyLinkedListException.cs",
@@ -189,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "MyLinkedList.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct28\\Struct28\\MyLinkedList.cs",
               "RelativeDocumentMoniker": "Struct28\\MyLinkedList.cs",
@@ -201,13 +204,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "MyHashSet.cs",
               "DocumentMoniker": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct28\\Struct28\\MyHashSet.cs",
               "RelativeDocumentMoniker": "Struct28\\MyHashSet.cs",
               "ToolTip": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct28\\Struct28\\MyHashSet.cs",
               "RelativeToolTip": "Struct28\\MyHashSet.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAswAgAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-07T15:13:25.651Z",
               "EditorCaption": ""

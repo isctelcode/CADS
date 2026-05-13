@@ -22,7 +22,7 @@ namespace Struct29
         private float loadFactor = 0.75f;
         private HashMapComparer<string> comparer = new HashMapComparer<string>();
 
-        public long Hash(object e)
+        private long Hash(object e)
         {
             string key = e.ToString();
             long hash = 0, pow = 1;

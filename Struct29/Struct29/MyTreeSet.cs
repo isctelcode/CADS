@@ -466,7 +466,7 @@ namespace Struct29
             Inorder(x.Right);
         }
 
-        public void Inorder()
+        private void Inorder()
         {
             Inorder(root);
         }
@@ -869,13 +869,15 @@ namespace Struct29
             }
         }
 
-        public void DescendingSet()
+        public MyLinkedList<T> DescendingSet()
         {
             T[] set = ToArray();
+            MyLinkedList<T> listSet = new MyLinkedList<T>();
             for (int i = set.Length - 1; i >= 0; --i)
             {
-                Console.WriteLine(set[i] + " ");
+                listSet.AddLast(set[i]);
             }
+            return listSet;
         }
 
         public MyTreeSet()

@@ -153,7 +153,7 @@ namespace Struct29
             comparer = anotherPriorityQueue.comparer;
         }
 
-        public void SiftUpMax(int index)
+        private void SiftUpMax(int index)
         {
             while (index > 0)
             {
@@ -170,7 +170,7 @@ namespace Struct29
             }
         }
 
-        public void SiftDownMax(int index)
+        private void SiftDownMax(int index)
         {
             while (index * 2 + 1 < size)
             {

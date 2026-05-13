@@ -20,7 +20,7 @@ namespace Struct29
         private MyLinkedList<T[]>[] table = new MyLinkedList<T[]>[0];
         private int size = 0;
         private float loadFactor = 0.75f;
-        private HashSetComparer<String> comparer = new HashSetComparer<String>();
+        private HashSetComparer<string> comparer = new HashSetComparer<string>();
 
         public class MyItr<T> : Collections1.MyIterator<T>
         {
@@ -70,7 +70,7 @@ namespace Struct29
             return new MyItr<T>(ToArray());
         }
 
-        public long Hash(object e)
+        private long Hash(object e)
         {
             string key = e.ToString();
             long hash = 0, pow = 1;

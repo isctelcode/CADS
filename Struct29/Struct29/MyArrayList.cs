@@ -184,11 +184,11 @@ namespace Struct29
             ++size;
         }
 
-        public void AddAll(T[] array)
+        public void AddAll(T[] elements)
         {
-            for (int i = 0; i < array.Length; ++i)
+            for (int i = 0; i < elements.Length; ++i)
             {
-                Add(array[i]);
+                Add(elements[i]);
             }
         }
 

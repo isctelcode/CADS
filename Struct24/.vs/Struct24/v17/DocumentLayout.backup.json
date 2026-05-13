@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct24\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC9538C0-0385-457C-86F7-B3B05BBBF279}|Struct24\\Struct24.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct24\\struct24\\mytreemapnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FC9538C0-0385-457C-86F7-B3B05BBBF279}|Struct24\\Struct24.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct24\\struct24\\mytreemapnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC9538C0-0385-457C-86F7-B3B05BBBF279}|Struct24\\Struct24.csproj|solutionrelative:struct24\\mytreemapnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{FC9538C0-0385-457C-86F7-B3B05BBBF279}|Struct24\\Struct24.csproj|solutionrelative:struct24\\mylinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC9538C0-0385-457C-86F7-B3B05BBBF279}|Struct24\\Struct24.csproj|c:\\users\\stepu\\desktop\\\u043B\u0430\u0431\u044B \u043A\u0430\u0438\u0441\u0434\\struct24\\struct24\\myhashmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FC9538C0-0385-457C-86F7-B3B05BBBF279}|Struct24\\Struct24.csproj|C:\\Users\\stepu\\Desktop\\\u041B\u0430\u0431\u044B \u041A\u0410\u0438\u0421\u0414\\Struct24\\struct24\\myhashmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC9538C0-0385-457C-86F7-B3B05BBBF279}|Struct24\\Struct24.csproj|solutionrelative:struct24\\myhashmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -62,8 +62,7 @@
               "RelativeToolTip": "Struct24\\MyLinkedListNode.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T14:16:00.179Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-07T14:16:00.179Z"
             },
             {
               "$type": "Document",
@@ -87,8 +86,7 @@
               "RelativeToolTip": "Struct24\\MyLinkedList.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T14:15:53.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-07T14:15:53.566Z"
             },
             {
               "$type": "Document",
@@ -100,8 +98,7 @@
               "RelativeToolTip": "Struct24\\MyTreeMap.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T14:14:52.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-07T14:14:52.646Z"
             },
             {
               "$type": "Document",
@@ -126,8 +123,7 @@
               "RelativeToolTip": "Struct24\\MyHashMap.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T20:13:37.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-06T20:13:37.148Z"
             },
             {
               "$type": "Document",
